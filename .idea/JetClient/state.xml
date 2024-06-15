@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="ce73819f-44d7-4123-b159-dd8575caef69" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/route/" />
+            </requestState>
+            <requestState>
+              <option name="id" value="8e84f747-6ac6-4706-a1cd-c4b311c677e4" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (1)" />
+              <option name="sortWeight" value="2000000" />
+              <option name="url" value="http://gk.suai.dev/static/appdata/1/1/route.gpx" />
+            </requestState>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="basic">
+                    <basicAuthState>
+                      <option name="pass" value="admin" />
+                      <option name="username" value="admin" />
+                    </basicAuthState>
+                  </option>
+                  <option name="type" value="BASIC" />
+                </authState>
+              </option>
+              <option name="id" value="608eb204-7863-40be-9b43-734268793117" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (2)" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://gk.suai.dev/portal/list_of_oopts" />
+            </requestState>
+            <requestState>
+              <option name="id" value="07b1a8db-db9e-467d-8ef4-4fcb198939a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="routes_all" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/routes_all" />
+            </requestState>
+            <requestState>
+              <option name="id" value="dabfc481-4495-4a15-ba7f-606628bc83da" />
+              <option name="method" value="GET" />
+              <option name="name" value="image" />
+              <option name="sortWeight" value="4500000" />
+              <option name="url" value="http://gk.suai.dev/static/appdata/1/1/imgs/img_2.png" />
+            </requestState>
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft (4)" />
+              <option name="sortWeight" value="5000000" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="7bc76d3b-180e-4828-8e28-4b6362f2fdb7" />
+    <option name="version" value="3" />
+  </component>
+</project>
