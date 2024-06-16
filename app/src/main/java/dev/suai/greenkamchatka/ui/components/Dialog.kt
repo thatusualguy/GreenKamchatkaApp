@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material3.CardDefaults
@@ -40,7 +41,7 @@ fun MyDialog(
     )
     {
         ElevatedCard(
-            onClick = { /*TODO*/ },
+            onClick = { onDismiss() },
             modifier = Modifier.padding(0.dp),
             colors = CardDefaults.elevatedCardColors(
                 containerColor = MaterialTheme.colorScheme.background
@@ -53,7 +54,7 @@ fun MyDialog(
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.End,
                 ) {
-                    TextButton(onClick = onDismiss) {
+                    TextButton(onClick = onDismiss, modifier = Modifier.size(40.dp)) {
                         Icon(painter = painterResource(id = R.drawable.cross), contentDescription = null)
                     }
                 }

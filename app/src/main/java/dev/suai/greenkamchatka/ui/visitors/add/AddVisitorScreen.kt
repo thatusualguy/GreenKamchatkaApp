@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -64,6 +63,55 @@ fun AddVisitorScreen(
 ) {
     val spacerHeight = 10.dp
 
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = 32.dp), horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = "Добавить пользователя", style = MaterialTheme.typography.headlineLarge)
+        Spacer(modifier = Modifier.height(spacerHeight))
+
+        VisitorParametersScreen(
+            visitor,
+            onLastNameChange, onFirstNameChange,
+            onMiddleNameChange,
+            onEmailChange,
+            onPhoneChange,
+            onGenderChange,
+            onCitizenshipChange,
+            onRegRegionChange,
+            onPassportSeriesChange,
+            onPassportNumChange,
+            onDobChange
+        )
+        Spacer(modifier = Modifier.height(spacerHeight * 2))
+
+        Button(onClick = onSavePress, Modifier.fillMaxWidth(0.8f)) {
+            Text(text = "Сохранить")
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun VisitorParametersScreen(
+    visitor: Visitor,
+    onLastNameChange: StrCallback,
+    onFirstNameChange: (String) -> Unit,
+    onMiddleNameChange: StrCallback,
+    onEmailChange: StrCallback,
+    onPhoneChange: StrCallback,
+    onGenderChange: (Gender) -> Unit,
+    onCitizenshipChange: StrCallback,
+    onRegRegionChange: StrCallback,
+    onPassportSeriesChange: StrCallback,
+    onPassportNumChange: StrCallback,
+    onDobChange: (Long) -> Unit,
+) {
+
+    val spacerHeight = 10.dp
+
 
     val context = LocalContext.current
     val dateFormat = DateFormat.getMediumDateFormat(context)
@@ -103,176 +151,163 @@ fun AddVisitorScreen(
     }
 
 
-    Column(
-        Modifier
-            .fillMaxWidth()
-            .verticalScroll(rememberScrollState())
-            .padding(horizontal = 32.dp), horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(text = "Добавить пользователя", style = MaterialTheme.typography.headlineLarge)
-        Spacer(modifier = Modifier.height(spacerHeight))
 
+
+    MyTextField(
+        value = visitor.lastName,
+        onValueChange = onLastNameChange,
+        label = "Фамилия",
+        placeholder = "Иванов"
+    )
+
+    Spacer(modifier = Modifier.height(spacerHeight))
+
+    MyTextField(
+        value = visitor.firstName,
+        onValueChange = onFirstNameChange,
+        label = "Имя",
+        placeholder = "Иван"
+    )
+    Spacer(modifier = Modifier.height(spacerHeight))
+
+    MyTextField(
+        value = visitor.middleName,
+        onValueChange = onMiddleNameChange,
+        label = "Отчество",
+        placeholder = "Иванович"
+    )
+    Spacer(modifier = Modifier.height(spacerHeight))
+
+
+    MyTextField(
+        value = visitor.email,
+        onValueChange = onEmailChange,
+        label = "Эл. почта",
+        placeholder = "ivan@example.com"
+    )
+    Spacer(modifier = Modifier.height(spacerHeight))
+    MyTextField(
+        value = visitor.phone,
+        onValueChange = onPhoneChange,
+        label = "Телефон",
+        placeholder = "+7..."
+    )
+    Spacer(modifier = Modifier.height(spacerHeight * 2))
+
+    Text(
+        text = "Дата рождения",
+        style = MaterialTheme.typography.headlineSmall,
+        modifier = Modifier.fillMaxWidth(),
+        textAlign = TextAlign.Left
+    )
+
+    Spacer(modifier = Modifier.height(spacerHeight / 2))
+
+    Box(modifier = Modifier.clickable { showDialog = true }) {
         MyTextField(
-            value = visitor.lastName,
-            onValueChange = onLastNameChange,
-            label = "Фамилия",
-            placeholder = "Иванов"
-        )
-
-        Spacer(modifier = Modifier.height(spacerHeight))
-
-        MyTextField(
-            value = visitor.firstName,
-            onValueChange = onFirstNameChange,
-            label = "Имя",
-            placeholder = "Иван"
-        )
-        Spacer(modifier = Modifier.height(spacerHeight))
-
-        MyTextField(
-            value = visitor.middleName,
-            onValueChange = onMiddleNameChange,
-            label = "Отчество",
-            placeholder = "Иванович"
-        )
-        Spacer(modifier = Modifier.height(spacerHeight))
-
-
-        MyTextField(
-            value = visitor.email,
-            onValueChange = onEmailChange,
-            label = "Эл. почта",
-            placeholder = "ivan@example.com"
-        )
-        Spacer(modifier = Modifier.height(spacerHeight))
-        MyTextField(
-            value = visitor.phone,
-            onValueChange = onPhoneChange,
-            label = "Телефон",
-            placeholder = "+7..."
-        )
-        Spacer(modifier = Modifier.height(spacerHeight * 2))
-
-        Text(
-            text = "Дата рождения",
-            style = MaterialTheme.typography.headlineSmall,
-            modifier = Modifier.fillMaxWidth(),
-            textAlign = TextAlign.Left
-        )
-
-        Spacer(modifier = Modifier.height(spacerHeight / 2))
-
-        Box(modifier = Modifier.clickable { showDialog = true }) {
-            MyTextField(
 //                value = dateFormat.format( visitor.dob),
-                value = dateFormat.format(calendar.time),
+            value = dateFormat.format(calendar.time),
+            label = "",
+            readOnly = true,
+            onValueChange = { showDialog = true },
+            enabled = false,
+            onClick = { showDialog = true }
+        )
+    }
+
+    Spacer(modifier = Modifier.height(spacerHeight * 2))
+
+    Row {
+
+
+        Column(Modifier.weight(0.5f)) {
+            Text(
+                text = "Пол",
+                style = MaterialTheme.typography.headlineSmall,
+                modifier = Modifier.fillMaxWidth(),
+                textAlign = TextAlign.Left
+            )
+            Spacer(modifier = Modifier.height(spacerHeight / 2))
+            DropDownMenu(
+                modifier = Modifier,
                 label = "",
-                readOnly = true,
-                onValueChange = { showDialog = true },
-                enabled = false,
-                onClick = {showDialog = true}
+                items = listOf("М", "Ж"),
+                selected = if (visitor.gender == Gender.Male) 0 else 1
+            ) {
+                onGenderChange(if (it == 0) Gender.Male else Gender.Female)
+            }
+        }
+        Spacer(Modifier.width(16.dp))
+
+
+        Column(Modifier.weight(1f)) {
+            Text(
+                text = "Гражданство",
+                style = MaterialTheme.typography.headlineSmall,
+                modifier = Modifier.fillMaxWidth(),
+                textAlign = TextAlign.Left
+            )
+            Spacer(modifier = Modifier.height(spacerHeight / 2))
+            DropDownMenu(
+                modifier = Modifier,
+                label = "",
+                items = countries,
+                selected = countries.indexOf(visitor.citizenship).coerceAtLeast(0)
+            ) {
+                onCitizenshipChange(regions[it])
+            }
+        }
+
+
+    }
+    Spacer(modifier = Modifier.height(spacerHeight * 2))
+
+    Text(
+        text = "Регион регистрации",
+        style = MaterialTheme.typography.headlineSmall,
+        modifier = Modifier.fillMaxWidth(),
+        textAlign = TextAlign.Left
+    )
+    Spacer(modifier = Modifier.height(spacerHeight / 2))
+    DropDownMenu(
+        modifier = Modifier.fillMaxWidth(),
+        label = "",
+        items = regions,
+        selected = regions.indexOf(visitor.registrationRegion).coerceAtLeast(0)
+    ) {
+        onRegRegionChange(regions[it])
+    }
+    Spacer(modifier = Modifier.height(spacerHeight * 2))
+
+    Text(
+        text = "Паспорт",
+        style = MaterialTheme.typography.headlineSmall,
+        modifier = Modifier.fillMaxWidth(),
+        textAlign = TextAlign.Left
+    )
+
+    Spacer(modifier = Modifier.height(spacerHeight / 2))
+
+    Row {
+
+
+        Column(Modifier.weight(0.4f)) {
+            MyTextField(
+                value = visitor.passportSeries,
+                onValueChange = onPassportSeriesChange,
+                label = "Серия"
             )
         }
+        Spacer(Modifier.width(16.dp))
 
-        Spacer(modifier = Modifier.height(spacerHeight * 2))
+        Column(Modifier.weight(0.6f)) {
 
-        Row {
+            MyTextField(
+                value = visitor.passportNum,
+                onValueChange = onPassportNumChange,
+                label = "Номер"
+            )
 
-
-            Column(Modifier.weight(0.5f)) {
-                Text(
-                    text = "Пол",
-                    style = MaterialTheme.typography.headlineSmall,
-                    modifier = Modifier.fillMaxWidth(),
-                    textAlign = TextAlign.Left
-                )
-                Spacer(modifier = Modifier.height(spacerHeight / 2))
-                DropDownMenu(
-                    modifier = Modifier,
-                    label = "",
-                    items = listOf("М", "Ж"),
-                    selected = if (visitor.gender == Gender.Male) 0 else 1
-                ) {
-                    onGenderChange(if (it == 0) Gender.Male else Gender.Female)
-                }
-            }
-            Spacer(Modifier.width(16.dp))
-
-
-            Column(Modifier.weight(1f)) {
-                Text(
-                    text = "Гражданство",
-                    style = MaterialTheme.typography.headlineSmall,
-                    modifier = Modifier.fillMaxWidth(),
-                    textAlign = TextAlign.Left
-                )
-                Spacer(modifier = Modifier.height(spacerHeight / 2))
-                DropDownMenu(
-                    modifier = Modifier,
-                    label = "",
-                    items = countries,
-                    selected = countries.indexOf(visitor.citizenship).coerceAtLeast(0)
-                ) {
-                    onCitizenshipChange(regions[it])
-                }
-            }
-
-
-        }
-        Spacer(modifier = Modifier.height(spacerHeight * 2))
-
-        Text(
-            text = "Регион регистрации",
-            style = MaterialTheme.typography.headlineSmall,
-            modifier = Modifier.fillMaxWidth(),
-            textAlign = TextAlign.Left
-        )
-        Spacer(modifier = Modifier.height(spacerHeight / 2))
-        DropDownMenu(
-            modifier = Modifier.fillMaxWidth(),
-            label = "",
-            items = regions,
-            selected = regions.indexOf(visitor.registrationRegion).coerceAtLeast(0)
-        ) {
-            onRegRegionChange(regions[it])
-        }
-        Spacer(modifier = Modifier.height(spacerHeight * 2))
-
-        Text(
-            text = "Паспорт",
-            style = MaterialTheme.typography.headlineSmall,
-            modifier = Modifier.fillMaxWidth(),
-            textAlign = TextAlign.Left
-        )
-
-        Spacer(modifier = Modifier.height(spacerHeight / 2))
-
-        Row {
-
-
-            Column(Modifier.weight(0.4f)) {
-                MyTextField(
-                    value = visitor.passportSeries,
-                    onValueChange = onPassportSeriesChange,
-                    label = "Серия"
-                )
-            }
-            Spacer(Modifier.width(16.dp))
-
-            Column(Modifier.weight(0.6f)) {
-
-                MyTextField(
-                    value = visitor.passportNum,
-                    onValueChange = onPassportNumChange,
-                    label = "Номер"
-                )
-
-            }
-        }
-        Spacer(modifier = Modifier.height(spacerHeight * 2))
-
-        Button(onClick = onSavePress, Modifier.fillMaxWidth(0.8f)) {
-            Text(text = "Сохранить")
         }
     }
 }

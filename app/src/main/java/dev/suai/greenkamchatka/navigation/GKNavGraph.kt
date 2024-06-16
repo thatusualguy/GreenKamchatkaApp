@@ -9,6 +9,8 @@ import androidx.navigation.compose.rememberNavController
 import dev.suai.greenkamchatka.TAG
 import dev.suai.greenkamchatka.ui.ecomap.EcoMapRoute
 import dev.suai.greenkamchatka.ui.menu.MenuRoute
+import dev.suai.greenkamchatka.ui.permit.apply.ApplyPermitRoute
+import dev.suai.greenkamchatka.ui.permit.select.PermitTypeRoute
 import dev.suai.greenkamchatka.ui.report.send.FileReportRoute
 import dev.suai.greenkamchatka.ui.routes.details.RouteDetailsRoute
 import dev.suai.greenkamchatka.ui.routes.list.RouteListRoute
@@ -95,12 +97,28 @@ fun GreenKamchatkaNavGraph(
             RouteDetailsRoute(
                 routeId = id,
                 onBackPressed = actions.navigateFromVisitor,
-                onRouteBook = { TODO() },
+                onRouteBook = { actions.navigateToPermitType(id) },
             )
         }
 
 
         // permit
+
+        composable(route = Destinations.APPLY_PERMIT_TYPE_ROUTE + "/{id}") {
+            val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
+
+            PermitTypeRoute(
+                onIndividualClick = { actions.navigateToPermit(id) },
+                onGroupClick = { },
+                onCompanyClick = {}
+            )
+        }
+
+        composable(route = Destinations.APPLY_PERMIT_ROUTE + "/{id}") {
+            val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
+
+            ApplyPermitRoute(routeId = id, onApply = actions.navigateToMenu)
+        }
 
         // report
 

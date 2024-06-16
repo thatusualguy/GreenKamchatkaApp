@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.suai.greenkamchatka.data.Resource
+import dev.suai.greenkamchatka.data.routes.RouteRepository
 import dev.suai.greenkamchatka.data.zones.Zone
 import dev.suai.greenkamchatka.data.zones.ZonesRepository
 import dev.suai.greenkamchatka.data.zones.impl.ZonesRepositoryHardcoded
@@ -20,7 +21,7 @@ data class ZonesUiState(
 )
 
 @HiltViewModel
-class ZonesViewModel @Inject constructor(private val zonesRepo: ZonesRepository) :
+class ZonesViewModel @Inject constructor(private val zonesRepo: ZonesRepository, private val routesRepository: RouteRepository) :
     ViewModel() {
 
     private val viewModelState = MutableStateFlow(ZonesUiState(Resource.loading()))

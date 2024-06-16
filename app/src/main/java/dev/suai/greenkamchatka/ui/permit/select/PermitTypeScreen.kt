@@ -1,4 +1,4 @@
-package dev.suai.greenkamchatka.ui.permit
+package dev.suai.greenkamchatka.ui.permit.select
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

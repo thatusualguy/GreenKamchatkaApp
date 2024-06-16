@@ -40,7 +40,6 @@ import dev.suai.greenkamchatka.ui.theme.Green
 import dev.suai.greenkamchatka.ui.theme.GreenKamchatkaTheme
 
 
-
 @Composable
 fun RouteDetailsScreen(
     route: Route,
@@ -63,6 +62,7 @@ fun RouteDetailsScreen(
                     color = Green
                 )
             }
+
             Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = route.name,
@@ -96,19 +96,18 @@ fun RouteDetailsScreen(
                 style = MaterialTheme.typography.bodyLarge
             )
 
-            Spacer(modifier = Modifier.weight(1f))
+            Spacer(modifier = Modifier.height(26.dp))
+            Button(
+                onClick = { onRegisterPressed(route.id) },
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
+                modifier = Modifier.align(Alignment.CenterHorizontally)
+            ) {
+                Text(
+                    text = "Подать заявку на посещение",
+                )
+            }
+        }
 
-        }
-        Spacer(modifier = Modifier.height(26.dp))
-        Button(
-            onClick = { onRegisterPressed(route.id) },
-            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
-            modifier = Modifier.align(Alignment.CenterHorizontally)
-        ) {
-            Text(
-                text = "Подать заявку на посещение",
-            )
-        }
     }
 }
 

@@ -7,8 +7,8 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
 
     // menu
 
-    val navigateToMenu:()->Unit={
-        navController.navigate(Destinations.MENU_ROUTE){
+    val navigateToMenu: () -> Unit = {
+        navController.navigate(Destinations.MENU_ROUTE) {
             launchSingleTop = true
         }
     }
@@ -28,8 +28,8 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
         }
     }
 
-    val navigateToEditVisitor:(Int)->Unit={
-        navController.navigate(Destinations.PERSONS_ROUTE+"/"+it.toString()){
+    val navigateToEditVisitor: (Int) -> Unit = {
+        navController.navigate(Destinations.PERSONS_ROUTE + "/" + it.toString()) {
             launchSingleTop = true
         }
     }
@@ -59,7 +59,7 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
     // routes
 
     val navigateToRoutes: (Int) -> Unit = {
-        navController.navigate(Destinations.ROUTES_ROUTE+"/"+it.toString())
+        navController.navigate(Destinations.ROUTES_ROUTE + "/" + it.toString())
         {
             launchSingleTop = true
             restoreState = true
@@ -68,7 +68,7 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
 
 
     val navigateToRouteDetails: (Int) -> Unit = {
-        navController.navigate(Destinations.ROUTE_DETAILS_ROUTE+"/"+it.toString())
+        navController.navigate(Destinations.ROUTE_DETAILS_ROUTE + "/" + it.toString())
         {
 
             launchSingleTop = true
@@ -79,24 +79,38 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
 
     // eco map
 
-    val navigateToEcoMap:()->Unit={
-        navController.navigate(Destinations.ECOMAP_ROUTE){
+    val navigateToEcoMap: () -> Unit = {
+        navController.navigate(Destinations.ECOMAP_ROUTE) {
             launchSingleTop = true
         }
     }
 
     // report
 
-    val navigateToFileReport:()->Unit={
-        navController.navigate(Destinations.FILE_REPORT_ROUTE){
+    val navigateToFileReport: () -> Unit = {
+        navController.navigate(Destinations.FILE_REPORT_ROUTE) {
             launchSingleTop = true
         }
     }
 
-    val navigateToUnsentReports:()->Unit={
-        navController.navigate(Destinations.UNSENT_REPORTS_ROUTE){
+    val navigateToUnsentReports: () -> Unit = {
+        navController.navigate(Destinations.UNSENT_REPORTS_ROUTE) {
             launchSingleTop = true
 
+        }
+    }
+
+    // permit
+
+    val navigateToPermitType: (Int) -> Unit = {
+        navController.navigate(Destinations.APPLY_PERMIT_TYPE_ROUTE + "/$it") {
+            launchSingleTop = true
+        }
+    }
+
+    val navigateToPermit: (Int) -> Unit = {
+        navController.navigate(Destinations.APPLY_PERMIT_ROUTE + "/$it") {
+            launchSingleTop = true
         }
     }
 }
