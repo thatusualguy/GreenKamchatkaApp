@@ -42,12 +42,12 @@ fun OpenStreetMapWithReports(
             val iconMarker = Marker(it)
             iconMarker.setPosition(geoPoint)
             val drawable = when(report.typeId) {
-                1 -> context.getDrawable(R.drawable.squirrel) // мусор
-                2 -> context.getDrawable(R.drawable.squirrel) // кострища
+                1 -> context.getDrawable(R.drawable.trash) // мусор
+                2 -> context.getDrawable(R.drawable.fireplace) // кострища
                 3 -> context.getDrawable(R.drawable.squirrel) // браконьерство
-                4 -> context.getDrawable(R.drawable.squirrel) // пожары
-                5 -> context.getDrawable(R.drawable.squirrel) // другое
-                else -> {context.getDrawable(R.drawable.squirrel)}
+                4 -> context.getDrawable(R.drawable.fire) // пожары
+                5 -> context.getDrawable(R.drawable.other) // другое
+                else -> {context.getDrawable(R.drawable.other)}
             }
             iconMarker.title = report.type
             iconMarker.subDescription = "desc"
