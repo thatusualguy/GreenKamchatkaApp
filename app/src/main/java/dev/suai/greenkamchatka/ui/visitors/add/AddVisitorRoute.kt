@@ -5,23 +5,38 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
-import dev.suai.greenkamchatka.ui.visitors.VisitorsViewModel
+
 
 @Composable
-fun AddVisitorRoute(
+fun CreateVisitorRoute(onBackPress: () -> Unit,
+                     onSavePress: () -> Unit){
+    AddVisitorRoute(onBackPress, onSavePress, null)
+}
+
+
+@Composable
+fun EditVisitorRoute(onBackPress: () -> Unit,
+                       onSavePress: () -> Unit,
+                     visitorId:Int)
+{
+    AddVisitorRoute(onBackPress, onSavePress, visitorId)
+}
+
+@Composable
+private fun AddVisitorRoute(
     onBackPress: () -> Unit,
     onSavePress: () -> Unit,
     visitorId:Int? = null
 ) {
-    val viewModel: VisitorsViewModel = hiltViewModel()
+    val viewModel =
+        hiltViewModel<VisitorAddViewModel, VisitorAddViewModel.VisitorAddViewModelFactory> { factory ->
+            factory.create(visitorId)
+        }
+
     val uiState by viewModel.uiState.collectAsState()
 
-    LaunchedEffect(visitorId) {
-        viewModel.selectVisitor(visitorId)
-    }
-
     AddVisitorScreen(
-        visitor = uiState.selectedVisitor,
+        visitor = uiState.visitor,
         onBackPress = onBackPress,
         onSavePress = {
             viewModel.insertVisitor()

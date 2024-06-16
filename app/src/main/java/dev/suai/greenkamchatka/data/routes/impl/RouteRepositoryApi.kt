@@ -37,7 +37,6 @@ class RouteRepositoryApi(private val app: Application) : RouteRepository {
 
                 val retrofit: Retrofit = Retrofit.Builder()
                     .baseUrl(BASE_URL)
-//                    .addConverterFactory(Conve)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build()
 

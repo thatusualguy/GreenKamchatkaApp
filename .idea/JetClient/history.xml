@@ -1858,6 +1858,198 @@
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718494634265" />
+          <option name="id" value="08b86f38-540d-4f60-b46f-8f1ceac3fe7b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 15 Jun 2024 23:37:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="08b86f38-540d-4f60-b46f-8f1ceac3fe7b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="29" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718494697961" />
+          <option name="id" value="2cce1d5b-d4b6-4528-9702-0f048a8d83b1" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX1dfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 15 Jun 2024 23:38:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="959" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2cce1d5b-d4b6-4528-9702-0f048a8d83b1" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]}]}&#10;" />
+              <option name="size" value="959" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718497959900" />
+          <option name="id" value="3bf80269-d44d-4521-bb49-aa67cd185e5d" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX1dfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 00:32:40 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="959" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3bf80269-d44d-4521-bb49-aa67cd185e5d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]}]}&#10;" />
+              <option name="size" value="959" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718499748150" />
+          <option name="id" value="ea1e2f55-77ae-4571-a035-4956607c5549" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbNDAuMzI0LDE2MC4yMzRdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        40.324,&#10;        160.234&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 01:02:28 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="1093" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ea1e2f55-77ae-4571-a035-4956607c5549" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[40.324,160.234]}]}&#10;" />
+              <option name="size" value="1093" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
       </list>
     </option>
   </component>

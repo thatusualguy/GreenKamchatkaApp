@@ -47,15 +47,6 @@ fun ListItem(
     }
 }
 
-@Composable
-fun ListItemPlus(
-    modifier: Modifier = Modifier,
-    text: String = "",
-    onClick: () -> Unit = {},
-) {
-    ListItem(modifier, text, onClick, Icons.Rounded.Add)
-}
-
 
 @Composable
 @Preview(showBackground = true, showSystemUi = true)

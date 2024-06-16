@@ -1,14 +1,18 @@
 package dev.suai.greenkamchatka.navigation
 
+import android.util.Log
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import dev.suai.greenkamchatka.TAG
+import dev.suai.greenkamchatka.ui.ecomap.EcoMapRoute
 import dev.suai.greenkamchatka.ui.menu.MenuRoute
 import dev.suai.greenkamchatka.ui.routes.details.RouteDetailsRoute
 import dev.suai.greenkamchatka.ui.routes.list.RouteListRoute
-import dev.suai.greenkamchatka.ui.visitors.add.AddVisitorRoute
+import dev.suai.greenkamchatka.ui.visitors.add.CreateVisitorRoute
+import dev.suai.greenkamchatka.ui.visitors.add.EditVisitorRoute
 import dev.suai.greenkamchatka.ui.visitors.list.VisitorsListRoute
 import dev.suai.greenkamchatka.ui.zones.ZonesRoute
 
@@ -22,14 +26,17 @@ fun GreenKamchatkaNavGraph(
 
     NavHost(navController, startDestination) {
 
+        // menu
         composable(route = Destinations.MENU_ROUTE) {
             MenuRoute(
-                onZonesClick =  actions.navigateToZones,
-                onEcomapClick = { TODO() },
-                onPersonsClick =  actions.navigateToVisitors,
+                onZonesClick = actions.navigateToZones,
+                onEcomapClick = actions.navigateToEcoMap,
+                onPersonsClick = actions.navigateToVisitors,
                 onReportClick = { TODO() }
             )
         }
+
+        // zones
 
         composable(
             route = Destinations.ZONES_ROUTE
@@ -40,6 +47,9 @@ fun GreenKamchatkaNavGraph(
             )
         }
 
+
+        // visitors
+
         composable(route = Destinations.PERSONS_ROUTE) {
             VisitorsListRoute(
                 onBackPress = actions.navigateToMenu,
@@ -49,23 +59,26 @@ fun GreenKamchatkaNavGraph(
         }
 
         composable(route = Destinations.PERSONS_ROUTE + "/new") {
-            AddVisitorRoute(
+            CreateVisitorRoute(
                 onBackPress = actions.navigateFromVisitor,
                 onSavePress = actions.navigateFromVisitor,
-                visitorId = null
             )
         }
 
-        composable(route = Destinations.PERSONS_ROUTE + "?{id}") {
-            val id = it.arguments?.getString("id")
-            AddVisitorRoute(
+        composable(route = Destinations.PERSONS_ROUTE + "/{id}") {
+            val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
+            Log.e(TAG, "EditVisitorRoute: $id ")
+
+            EditVisitorRoute(
                 onBackPress = actions.navigateFromVisitor,
                 onSavePress = actions.navigateFromVisitor,
-                visitorId = id?.toInt()
+                visitorId = id
             )
         }
 
-        composable(route = Destinations.ROUTES_ROUTE + "?{id}") {
+        // routes
+
+        composable(route = Destinations.ROUTES_ROUTE + "/{id}") {
             val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
 
             RouteListRoute(
@@ -75,13 +88,27 @@ fun GreenKamchatkaNavGraph(
             )
         }
 
-        composable(route = Destinations.ROUTE_DETAILS_ROUTE + "?{id}") {
+        composable(route = Destinations.ROUTE_DETAILS_ROUTE + "/{id}") {
             val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
 
             RouteDetailsRoute(
                 routeId = id,
-                onRouteBook = actions.navigateToRouteDetails,
                 onBackPressed = actions.navigateFromVisitor,
+                onRouteBook = { TODO() },
+            )
+        }
+
+
+        // permit
+
+        // report
+
+        // eco map
+
+        composable(route = Destinations.ECOMAP_ROUTE) {
+            EcoMapRoute(
+                onSendReport = actions.navigateToFileReport,
+                onBackPress = { TODO() }
             )
         }
     }

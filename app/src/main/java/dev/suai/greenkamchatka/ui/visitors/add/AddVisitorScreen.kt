@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.DatePicker
 import androidx.compose.material3.DatePickerDialog
@@ -37,6 +39,7 @@ import dev.suai.greenkamchatka.ui.components.MyTextField
 import dev.suai.greenkamchatka.ui.theme.GreenKamchatkaTheme
 import java.time.Instant
 import java.util.Calendar
+import java.util.Date
 
 
 private typealias StrCallback = (String) -> Unit
@@ -64,11 +67,14 @@ fun AddVisitorScreen(
 
     val context = LocalContext.current
     val dateFormat = DateFormat.getMediumDateFormat(context)
+    val calendar: Calendar = Calendar.getInstance()
+    calendar.time = Date.from(Instant.ofEpochMilli(visitor.dob))
+
 
     var showDialog by remember { mutableStateOf(false) }
 
     val regions = listOf("Санкт-Петербург", "Камчатка", "Москва")
-    val countries = listOf("Санкт-Петербург", "Камчатка", "Москва")
+    val countries = listOf("Россия", "Беларусь", "Казахстан")
 
     if (showDialog) {
         val datePickerState = rememberDatePickerState()
@@ -84,9 +90,7 @@ fun AddVisitorScreen(
                         showDialog = false
 
                         if (datePickerState.selectedDateMillis != null) {
-                            val calendar: Calendar = Calendar.getInstance()
-                            calendar.setTimeInMillis(datePickerState.selectedDateMillis!!)
-                            onDobChange(calendar.time.toInstant().epochSecond)
+                            onDobChange(datePickerState.selectedDateMillis!!)
                         }
                     }
                 ) {
@@ -101,7 +105,8 @@ fun AddVisitorScreen(
 
     Column(
         Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
+            .verticalScroll(rememberScrollState())
             .padding(horizontal = 32.dp), horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = "Добавить пользователя", style = MaterialTheme.typography.headlineLarge)
@@ -159,7 +164,8 @@ fun AddVisitorScreen(
 
         Box(modifier = Modifier.clickable { showDialog = true }) {
             MyTextField(
-                value = dateFormat.format(visitor.dob),
+//                value = dateFormat.format( visitor.dob),
+                value = dateFormat.format(calendar.time),
                 label = "",
                 readOnly = true,
                 onValueChange = { showDialog = true },
@@ -207,7 +213,7 @@ fun AddVisitorScreen(
                     items = countries,
                     selected = countries.indexOf(visitor.citizenship).coerceAtLeast(0)
                 ) {
-                    onRegRegionChange(regions[it])
+                    onCitizenshipChange(regions[it])
                 }
             }
 
@@ -263,8 +269,9 @@ fun AddVisitorScreen(
 
             }
         }
+        Spacer(modifier = Modifier.height(spacerHeight * 2))
 
-        Button(onClick = onSavePress) {
+        Button(onClick = onSavePress, Modifier.fillMaxWidth(0.8f)) {
             Text(text = "Сохранить")
         }
     }

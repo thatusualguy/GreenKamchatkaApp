@@ -1,67 +1,83 @@
-package dev.suai.greenkamchatka.ui.visitors
+package dev.suai.greenkamchatka.ui.visitors.add
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.assisted.Assisted
+import dagger.assisted.AssistedFactory
+import dagger.assisted.AssistedInject
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.suai.greenkamchatka.data.visitors.Gender
 import dev.suai.greenkamchatka.data.visitors.Visitor
 import dev.suai.greenkamchatka.data.visitors.VisitorsRepository
-import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.last
+import kotlinx.coroutines.flow.single
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import java.util.Date
-import javax.inject.Inject
 
 
-data class VisitorsUiState(
-    val visitors: List<Visitor> = emptyList(),
-    val selectedVisitor: Visitor = Visitor()
-)
+data class VisitorState(val visitor: Visitor = Visitor())
 
-
-@HiltViewModel
-class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRepository) :
+@HiltViewModel(assistedFactory = VisitorAddViewModel.VisitorAddViewModelFactory::class)
+class VisitorAddViewModel @AssistedInject constructor(
+    @Assisted val userId: Int?,
+    private val visitorRepo: VisitorsRepository
+) :
     ViewModel() {
 
-    private val viewModelState = MutableStateFlow(VisitorsUiState())
-    val uiState: StateFlow<VisitorsUiState>
+    @AssistedFactory
+    interface VisitorAddViewModelFactory {
+        fun create(id: Int?): VisitorAddViewModel
+    }
+
+    private val viewModelState = MutableStateFlow(VisitorState())
+    val uiState: StateFlow<VisitorState>
         get() = viewModelState
 
+
     init {
-        refreshVisitors()
-    }
-
-    private fun refreshVisitors() {
-        viewModelScope.launch(IO) {
-            viewModelState.update { it.copy(visitors = visitorRepo.getAll()) }
-        }
-    }
-
-    fun deleteVisitor(id: Int) {
-        val visitor = viewModelState.value.visitors.find { it.id == id } ?: return
-
-        viewModelScope.launch(IO) {
-            visitorRepo.delete(visitor)
-            viewModelState.update { it.copy(visitors = visitorRepo.getAll()) }
-        }
+        if (userId != null) {
+            viewModelScope.launch(Dispatchers.IO) {
+                viewModelState.update {
+                    it.copy(
+                        visitor = visitorRepo.get(userId).first()
+                    )
+                }
+            }
+        } else
+            viewModelState.update { it.copy(visitor = Visitor()) }
     }
 
     fun insertVisitor() {
-        val visitor = viewModelState.value.selectedVisitor ?: return
+        val visitor = viewModelState.value.visitor
 
-        viewModelScope.launch(IO) {
+        viewModelScope.launch(Dispatchers.IO) {
             visitorRepo.add(visitor)
-            viewModelState.update { it.copy(visitors = visitorRepo.getAll()) }
             selectVisitor(null)
         }
     }
 
+    fun selectVisitor(visitorId: Int?) {
+
+        if (visitorId == null) viewModelState.update {
+            it.copy(visitor = Visitor())
+        } else
+            viewModelScope.launch(Dispatchers.IO) {
+                viewModelState.update {
+                    it.copy(
+                        visitor = visitorRepo.getAll().last().find { it.id == visitorId }
+                            ?: Visitor()
+                    )
+                }
+            }
+    }
+
     fun updateVisitor(newVisitor: Visitor) {
-        viewModelScope.launch(IO) {
+        viewModelScope.launch(Dispatchers.IO) {
             visitorRepo.add(newVisitor)
-            viewModelState.update { it.copy(visitors = visitorRepo.getAll()) }
         }
     }
 
@@ -69,7 +85,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onFirstNameChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     firstName = a
                 )
             )
@@ -79,7 +95,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onLastNameChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     lastName = a
                 )
             )
@@ -89,7 +105,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onEmailChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     email = a
                 )
             )
@@ -99,7 +115,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onPhoneChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     phone = a
                 )
             )
@@ -109,7 +125,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onDobChange(a: Long) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     dob = a
                 )
             )
@@ -119,7 +135,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onGenderChange(a: Gender) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     gender = a
                 )
             )
@@ -129,7 +145,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onCitizenshipChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     citizenship = a
                 )
             )
@@ -139,7 +155,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onRegRegionChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     registrationRegion = a
                 )
             )
@@ -149,7 +165,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onPassportSeriesChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     passportSeries = a
                 )
             )
@@ -159,7 +175,7 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onPassportNumChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     passportNum = a
                 )
             )
@@ -169,21 +185,12 @@ class VisitorsViewModel @Inject constructor(private val visitorRepo: VisitorsRep
     fun onMiddleNameChange(a: String) {
         viewModelState.update {
             it.copy(
-                selectedVisitor = it.selectedVisitor.copy(
+                visitor = it.visitor.copy(
                     middleName = a
                 )
             )
         }
     }
 
-    fun selectVisitor(visitorId: Int?) {
 
-        if (visitorId == null) viewModelState.update {
-            it.copy(selectedVisitor = Visitor())
-        } else viewModelState.update {
-            it.copy(
-                selectedVisitor = it.visitors.find { it.id == visitorId } ?: Visitor()
-            )
-        }
-    }
 }

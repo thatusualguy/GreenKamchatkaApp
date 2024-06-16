@@ -1,19 +1,20 @@
 package dev.suai.greenkamchatka.navigation
 
-import android.util.Log
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
-import dev.suai.greenkamchatka.TAG
 
 class GreenKamchatkaNavigationActions(navController: NavController) {
 
-
+    // menu
 
     val navigateToMenu:()->Unit={
         navController.navigate(Destinations.MENU_ROUTE){
             launchSingleTop = true
         }
     }
+
+
+    // visitors
 
     val navigateToVisitors: () -> Unit = {
         navController.navigate(Destinations.PERSONS_ROUTE) {
@@ -28,7 +29,7 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
     }
 
     val navigateToEditVisitor:(Int)->Unit={
-        navController.navigate(Destinations.PERSONS_ROUTE+"?"+it.toString()){
+        navController.navigate(Destinations.PERSONS_ROUTE+"/"+it.toString()){
             launchSingleTop = true
         }
     }
@@ -41,25 +42,24 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
     }
 
 
+    // zone
 
     val navigateToZones: () -> Unit = {
 
-        Log.d(TAG, "null() called")
-
-        Log.e(TAG, "to zones" )
-
         navController.navigate(Destinations.ZONES_ROUTE) {
-//            popUpTo(navController.graph.findStartDestination().id) {
-//                saveState = false
-//            }
+            popUpTo(navController.graph.findStartDestination().id) {
+                saveState = false
+            }
 
             launchSingleTop = true
 //            restoreState = true
         }
     }
 
+    // routes
+
     val navigateToRoutes: (Int) -> Unit = {
-        navController.navigate(Destinations.ROUTES_ROUTE+"?"+it.toString())
+        navController.navigate(Destinations.ROUTES_ROUTE+"/"+it.toString())
         {
             launchSingleTop = true
             restoreState = true
@@ -68,11 +68,35 @@ class GreenKamchatkaNavigationActions(navController: NavController) {
 
 
     val navigateToRouteDetails: (Int) -> Unit = {
-        navController.navigate(Destinations.ROUTE_DETAILS_ROUTE+"?"+it.toString())
+        navController.navigate(Destinations.ROUTE_DETAILS_ROUTE+"/"+it.toString())
         {
 
             launchSingleTop = true
             restoreState = true
+        }
+    }
+
+
+    // eco map
+
+    val navigateToEcoMap:()->Unit={
+        navController.navigate(Destinations.ECOMAP_ROUTE){
+            launchSingleTop = true
+        }
+    }
+
+    // report
+
+    val navigateToFileReport:()->Unit={
+        navController.navigate(Destinations.FILE_REPORT_ROUTE){
+            launchSingleTop = true
+        }
+    }
+
+    val navigateToUnsentReports:()->Unit={
+        navController.navigate(Destinations.UNSENT_REPORTS_ROUTE){
+            launchSingleTop = true
+
         }
     }
 }

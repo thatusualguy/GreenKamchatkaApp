@@ -4,7 +4,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
-import dev.suai.greenkamchatka.ui.visitors.VisitorsViewModel
 
 @Composable
 fun VisitorsListRoute(
@@ -12,7 +11,7 @@ fun VisitorsListRoute(
     onAddPress: () -> Unit,
     onEditPress: (Int) -> Unit
 ) {
-    val viewModel: VisitorsViewModel = hiltViewModel()
+    val viewModel: VisitorListViewModel = hiltViewModel()
     val uiState by viewModel.uiState.collectAsState()
 
     VisitorsListScreen(

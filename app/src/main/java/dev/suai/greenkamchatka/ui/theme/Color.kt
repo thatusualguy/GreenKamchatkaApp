@@ -16,3 +16,4 @@ var White = Color(0xFFFFFFFF)
 var DarkGreen = Color(0xFF6E9F86)
 var Salad = Color(0xFFE7FFF0) // designed 0xFFE7FFF0  backup 0xFFADFFC8
 var Gold = Color(0xFFF2B600)
+var Gray = Color(0xFF9A9A9A)

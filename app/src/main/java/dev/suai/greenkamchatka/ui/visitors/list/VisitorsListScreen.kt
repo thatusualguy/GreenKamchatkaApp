@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Delete
 import androidx.compose.material.icons.rounded.Add
@@ -35,25 +37,31 @@ fun VisitorsListScreen(
 
     val iconSize = 16.dp
 
-    Column(Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(text = "Список посетителей", style = MaterialTheme.typography.headlineLarge)
-
-        Spacer(modifier = Modifier.height(16.dp))
-        LazyColumn(
-            modifier = Modifier.fillMaxWidth(0.85f),
+    Column (modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally){
+        Column(
+            Modifier
+                .fillMaxWidth(0.85f)
+                .verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            items(visitors) {
+            Text(text = "Список посетителей", style = MaterialTheme.typography.headlineLarge)
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            visitors.forEach {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Spacer(
                         modifier = Modifier
                             .width(iconSize)
                     )
                     ListItem(
-                        modifier = Modifier.weight(1f).height(60.dp),
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(60.dp),
                         text = it.second,
                         onClick = { onItemClick(it.first) })
-                    Icon(Icons.Outlined.Delete,
+                    Icon(
+                        Icons.Outlined.Delete,
                         contentDescription = null,
                         modifier = Modifier
                             .size(iconSize)
@@ -62,24 +70,25 @@ fun VisitorsListScreen(
                     )
                 }
             }
-            item {
-                Row(verticalAlignment = Alignment.CenterVertically) {
 
-                    Spacer(
-                        modifier = Modifier
-                            .width(iconSize)
-                    )
-                    ListItem(
-                        modifier = Modifier.weight(1f).height(60.dp),
-                        text = "Добавить посетителя",
-                        onClick = onItemCreate,
-                        icon = Icons.Rounded.Add
-                    )
-                    Spacer(
-                        modifier = Modifier
-                            .width(iconSize)
-                    )
-                }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+
+                Spacer(
+                    modifier = Modifier
+                        .width(iconSize)
+                )
+                ListItem(
+                    modifier = Modifier
+                        .weight(1f)
+                        .height(60.dp),
+                    text = "Добавить посетителя",
+                    onClick = onItemCreate,
+                    icon = Icons.Rounded.Add
+                )
+                Spacer(
+                    modifier = Modifier
+                        .width(iconSize)
+                )
             }
         }
     }

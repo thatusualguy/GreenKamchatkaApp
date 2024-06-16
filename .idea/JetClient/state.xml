@@ -8,14 +8,14 @@
             <requestState>
               <option name="id" value="ce73819f-44d7-4123-b159-dd8575caef69" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft" />
+              <option name="name" value="route" />
               <option name="sortWeight" value="1000000" />
               <option name="url" value="http://gk.suai.dev/api/mapp/route/" />
             </requestState>
             <requestState>
               <option name="id" value="8e84f747-6ac6-4706-a1cd-c4b311c677e4" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft (1)" />
+              <option name="name" value="route gpx" />
               <option name="sortWeight" value="2000000" />
               <option name="url" value="http://gk.suai.dev/static/appdata/1/1/route.gpx" />
             </requestState>
@@ -33,7 +33,7 @@
               </option>
               <option name="id" value="608eb204-7863-40be-9b43-734268793117" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft (2)" />
+              <option name="name" value="list_of_oopts" />
               <option name="sortWeight" value="3000000" />
               <option name="url" value="http://gk.suai.dev/portal/list_of_oopts" />
             </requestState>
@@ -54,8 +54,9 @@
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
               <option name="method" value="GET" />
-              <option name="name" value="Draft (4)" />
+              <option name="name" value="reports" />
               <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
             </requestState>
           </list>
         </option>

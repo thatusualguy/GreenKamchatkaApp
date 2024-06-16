@@ -10,7 +10,10 @@ object Destinations {
     const val APPLY_PERMIT_ROUTE = "apply_permit"
     const val CHECK_PERMITS_ROUTE = "check_permits"
 
-    const val FILE_REPORT = "file_report"
+    const val FILE_REPORT_ROUTE = "file_report"
+    const val UNSENT_REPORTS_ROUTE = "unsent_reports"
 
     const val PERSONS_ROUTE = "persons"
+
+    const val ECOMAP_ROUTE = "eco_map"
 }
