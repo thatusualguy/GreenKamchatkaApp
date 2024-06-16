@@ -6,34 +6,32 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import dev.suai.greenkamchatka.data.visitors.VisitorsRepository
+import dev.suai.greenkamchatka.data.reports.ReportRepository
+import dev.suai.greenkamchatka.data.reports.impl.ReportRepositoryCombined
+import dev.suai.greenkamchatka.data.reports.impl.room.ReportDatabase
 import dev.suai.greenkamchatka.data.visitors.impl.VisitorDatabase
-import dev.suai.greenkamchatka.data.visitors.impl.VisitorsRepositoryLocal
 import javax.inject.Singleton
-
 
 @Module
 @InstallIn(SingletonComponent::class)
-object VisitorsModule {
+object ReportModule {
 
     @Provides
     @Singleton
-    fun provideVisitorDatabase(app: Application): VisitorDatabase {
+    fun provideReportDatabase(app: Application): ReportDatabase {
         return Room.databaseBuilder(
             app,
-            VisitorDatabase::class.java,
-            "VisitorDatabase"
+            ReportDatabase::class.java,
+            "ReportDatabase"
         )
             .fallbackToDestructiveMigration()
             .build()
-
-
     }
 
 
-    @Provides
     @Singleton
-    fun provideVisitorRepository(database: VisitorDatabase): VisitorsRepository {
-        return VisitorsRepositoryLocal(database.dao)
+    @Provides
+    fun provideReportRepository(app: Application, database: ReportDatabase): ReportRepository {
+        return ReportRepositoryCombined(database.reportDao(), app)
     }
 }

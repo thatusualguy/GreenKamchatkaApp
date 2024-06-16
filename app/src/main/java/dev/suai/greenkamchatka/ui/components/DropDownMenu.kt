@@ -45,6 +45,7 @@ fun DropDownMenu(
             label = {
                 Text(label)
             },
+            shape = MaterialTheme.shapes.medium,
             trailingIcon = {
                 TrailingIcon(
                     expanded = expanded

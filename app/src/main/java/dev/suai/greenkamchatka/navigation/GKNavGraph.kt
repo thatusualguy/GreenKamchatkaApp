@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import dev.suai.greenkamchatka.TAG
 import dev.suai.greenkamchatka.ui.ecomap.EcoMapRoute
 import dev.suai.greenkamchatka.ui.menu.MenuRoute
+import dev.suai.greenkamchatka.ui.report.send.FileReportRoute
 import dev.suai.greenkamchatka.ui.routes.details.RouteDetailsRoute
 import dev.suai.greenkamchatka.ui.routes.list.RouteListRoute
 import dev.suai.greenkamchatka.ui.visitors.add.CreateVisitorRoute
@@ -32,7 +33,7 @@ fun GreenKamchatkaNavGraph(
                 onZonesClick = actions.navigateToZones,
                 onEcomapClick = actions.navigateToEcoMap,
                 onPersonsClick = actions.navigateToVisitors,
-                onReportClick = { TODO() }
+                onReportClick = actions.navigateToFileReport
             )
         }
 
@@ -102,6 +103,13 @@ fun GreenKamchatkaNavGraph(
         // permit
 
         // report
+
+        composable(route = Destinations.FILE_REPORT_ROUTE) {
+            FileReportRoute(
+                onReportSent = actions.navigateToMenu,
+                onBack = actions.navigateToMenu
+            )
+        }
 
         // eco map
 

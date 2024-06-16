@@ -25,15 +25,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.motionEventSpy
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.room.util.TableInfo
 import coil.compose.AsyncImage
 import dev.suai.greenkamchatka.R
 import dev.suai.greenkamchatka.data.routes.Route
+import dev.suai.greenkamchatka.ui.theme.Green
 import dev.suai.greenkamchatka.ui.theme.GreenKamchatkaTheme
 
 
@@ -44,52 +47,59 @@ fun RouteDetailsScreen(
     onRegisterPressed: (Int) -> Unit,
     onBackPressed: () -> Unit
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp)
-            .verticalScroll(rememberScrollState())
 
-    ) {
-        TextButton(onClick = { onBackPressed }) {
-            Text(
-                text = "Маршруты",
-                color = Color.Green
-            )
-        }
-        Spacer(modifier = Modifier.height(16.dp))
-        Text(
-            text = route.name,
-            fontSize = 24.sp,
-            fontWeight = FontWeight.Bold
-        )
-        Spacer(modifier = Modifier.height(16.dp))
 
-        Row(
+    Column(Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
+        Column(
             modifier = Modifier
-//                .fillMaxWidth()
-                .height(200.dp)
-                .horizontalScroll(rememberScrollState())
+                .fillMaxWidth(0.8f)
+                //            .padding(16.dp)
+                .verticalScroll(rememberScrollState())
+
         ) {
-            route.images.forEach{
-                AsyncImage(
-                    modifier = Modifier.fillMaxHeight(),
-                    contentScale = ContentScale.FillHeight,
-                    model = it,
-                    contentDescription = null,
-                    placeholder = painterResource(id = R.drawable.ic_launcher_background)
+            TextButton(onClick = { onBackPressed }) {
+                Text(
+                    text = "Маршруты",
+                    color = Green
                 )
-                Spacer(modifier = Modifier.width(8.dp))
-
             }
-        }
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = route.name,
+                modifier = Modifier.align(Alignment.CenterHorizontally),
+                style = MaterialTheme.typography.headlineLarge
+            )
+            Spacer(modifier = Modifier.height(16.dp))
 
-        Spacer(modifier = Modifier.height(16.dp))
-        Text(
-            text = route.description,
-            fontSize = 16.sp
-        )
-        Spacer(modifier = Modifier.height(16.dp))
+            Row(
+                modifier = Modifier
+                    //                .fillMaxWidth()
+                    .height(200.dp)
+                    .horizontalScroll(rememberScrollState())
+            ) {
+                route.images.forEach {
+                    AsyncImage(
+                        modifier = Modifier.fillMaxHeight(),
+                        contentScale = ContentScale.FillHeight,
+                        model = it,
+                        contentDescription = null,
+                        placeholder = painterResource(id = R.drawable.ic_launcher_background)
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = route.description,
+                style = MaterialTheme.typography.bodyLarge
+            )
+
+            Spacer(modifier = Modifier.weight(1f))
+
+        }
+        Spacer(modifier = Modifier.height(26.dp))
         Button(
             onClick = { onRegisterPressed(route.id) },
             colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),

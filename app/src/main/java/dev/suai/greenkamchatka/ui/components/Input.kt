@@ -27,6 +27,8 @@ fun MyTextField(
     value: String,
     onValueChange: (String) -> Unit,
     label: String,
+    modifier: Modifier = Modifier,
+    lines:Int = 1,
     placeholder: String? = null,
     singleLine: Boolean = true,
     isError: Boolean = false,
@@ -36,8 +38,12 @@ fun MyTextField(
     enabled: Boolean = true,
     onClick: ()->Unit = {}
 ) {
+
+    if (singleLine)
+        modifier.height(60.dp)
+
     OutlinedTextField(
-        modifier = Modifier.fillMaxWidth().height(60.dp).clickable { onClick() },
+        modifier = modifier.fillMaxWidth().clickable { onClick() },
 
         value = value,
         onValueChange = onValueChange,
@@ -50,6 +56,7 @@ fun MyTextField(
         keyboardActions = KeyboardActions(
             onSend = { onImeDone?.invoke() }
         ),
+        maxLines = lines,
         keyboardOptions = KeyboardOptions(
             keyboardType = keyboardType,
             imeAction = if (onImeDone == null) ImeAction.Next else ImeAction.Send

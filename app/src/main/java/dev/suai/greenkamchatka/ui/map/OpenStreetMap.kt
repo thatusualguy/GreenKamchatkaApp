@@ -25,6 +25,7 @@ fun OpenStreetMap(
             MapView(context).apply {
                 // set map source
                 setTileSource(TileSourceFactory.OpenTopo)
+                maxZoomLevel = 8.0
 
                 // add rotation
                 val rotationGestureOverlay = RotationGestureOverlay(this)

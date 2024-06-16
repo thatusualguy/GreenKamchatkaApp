@@ -2050,6 +2050,886 @@
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718533993922" />
+          <option name="id" value="bec15a71-1d7a-4893-8fad-6a01c1421628" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 10:33:14 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="bec15a71-1d7a-4893-8fad-6a01c1421628" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718534753250" />
+          <option name="id" value="d681ab14-4745-4e53-b251-21aa0a399650" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="basic">
+                    <basicAuthState>
+                      <option name="pass" value="admin" />
+                      <option name="username" value="admin" />
+                    </basicAuthState>
+                  </option>
+                  <option name="type" value="BASIC" />
+                </authState>
+              </option>
+              <option name="id" value="608eb204-7863-40be-9b43-734268793117" />
+              <option name="method" value="GET" />
+              <option name="name" value="list_of_oopts" />
+              <option name="sortWeight" value="3000000" />
+              <option name="url" value="http://gk.suai.dev/portal/list_of_oopts" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+RWNvbG9naWNhbCBNb25pdG9yaW5nPC90aXRsZT4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL3N0YXRpYy9wb3J0YWwvc3R5bGVzL3N0eWxlcy5jc3MiPgo8L2hlYWQ+Cjxib2R5Pgo8aGVhZGVyPgogICAgPGgxPkVjb2xvZ2ljYWwgTW9uaXRvcmluZyBpbiBLYW1jaGF0a2EgS3JhaTwvaDE+CjwvaGVhZGVyPgo8bWFpbj4KICAgIDxkaXYgY2xhc3M9InBhbmVsLXNlY3Rpb24iPgogICAgICAgIDxuYXY+CiAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSIjIj7QoNCw0YHRgdGH0LjRgtCw0YLRjCDQvdCw0LPRgNGD0LfQutGDPC9hPjwvbGk+CiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iL3BvcnRhbC90cm91YmxlcyI+0K3QutC+0L/RgNC+0LjRiNC10YHRgtCy0LjRjzwvYT48L2xpPgogICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Ii9wb3J0YWwvbGlzdF9vZl9yZXF1ZXN0cyI+0JLRi9C00LDRh9CwINGA0LDQt9GA0LXRiNC10L3QuNC5PC9hPjwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgPC9uYXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9InJlcXVlc3Qtc2VjdGlvbiI+CiAgICAgICAgPGgyPtCS0YvQsdC10YDQuNGC0LUg0J7QntCf0KI8L2gyPgogICAgICAgIDxkaXYgY2xhc3M9InJlcXVlc3QtbGlzdCI+CiAgICAgICAgICAgIDx1bCBpZD0idHJvdWJsZXNMaXN0Ij4KICAgICAgICAgICAgICAgIAogICAgICAgICAgICA8L3VsPgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CjwvbWFpbj4KPGZvb3Rlcj4KICAgIDxwPiZjb3B5OyAyMDI0IFNVQUkuZGV2LiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4KPC9mb290ZXI+CjxzY3JpcHQ+CiAgICBmdW5jdGlvbiByZWRpcmVjdFRvUm91dGVzKGlkKSB7CiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBgL3BvcnRhbC9saXN0X29mX3JvdXRlcz9pZD0ke2lkfWA7CiAgICB9CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4gewogICAgICAgIAogICAgICAgIGNvbnN0IGFwaVVybCA9ICcvYXBpL3BvcnRhbC9nZXRfYWxsX29vcHRzJzsKCiAgICAgICAgCiAgICAgICAgZmV0Y2goYXBpVXJsKQogICAgICAgICAgICAudGhlbihyZXNwb25zZSA9PiByZXNwb25zZS5qc29uKCkpCiAgICAgICAgICAgIC50aGVuKGRhdGEgPT4gewogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjb25zdCBvb3B0cyA9IGRhdGEub29wdHM7CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjb25zdCBjb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgndHJvdWJsZXNMaXN0Jyk7CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBvb3B0cy5mb3JFYWNoKG9vcHQgPT4gewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnN0IHRpbGUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICAgICAgICAgICAgICAgICAgICB0aWxlLmNsYXNzTGlzdC5hZGQoJ29vcHQtdGlsZScpOwogICAgICAgICAgICAgICAgICAgIHRpbGUuZGF0YXNldC5pZCA9IG9vcHQuaWQ7CgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnN0IG5hbWUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzcGFuJyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKG9vcHQuc3RyZXNzICE9PSAwKXsKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZS50ZXh0Q29udGVudCA9IGAke29vcHQubmFtZX0gKNC/0YDQtdC00LXQu9GM0L3QsNGPINC90LDQs9GA0YPQt9C60LAgLSAke29vcHQuc3RyZXNzfSDRh9C10Lsv0LTQtdC90YwpYDsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWxzZXsKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZS50ZXh0Q29udGVudCA9IG9vcHQubmFtZTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgbmFtZS5jbGFzc05hbWUgPSAnb29wdC1uYW1lJzsKICAgICAgICAgICAgICAgICAgICB0aWxlLmFwcGVuZENoaWxkKG5hbWUpOwogICAgICAgICAgICAgICAgICAgIHRpbGUuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCJvb3B0SUQiLCBvb3B0LmlkKTsKICAgICAgICAgICAgICAgICAgICAgICAgcmVkaXJlY3RUb1JvdXRlcyhvb3B0LmlkKTsKICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBjb25zdCBsaXN0SXRlbSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2xpJyk7CiAgICAgICAgICAgICAgICAgICAgbGlzdEl0ZW0uYXBwZW5kQ2hpbGQodGlsZSk7CgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lci5hcHBlbmRDaGlsZChsaXN0SXRlbSk7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSkKICAgICAgICAgICAgLmNhdGNoKGVycm9yID0+IHsKICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIGRhdGE6JywgZXJyb3IpOwogICAgICAgICAgICB9KTsKICAgIH0pOwo8L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;&#10;    &lt;title&gt;Ecological Monitoring&lt;/title&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/portal/styles/styles.css&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;header&gt;&#10;    &lt;h1&gt;Ecological Monitoring in Kamchatka Krai&lt;/h1&gt;&#10;&lt;/header&gt;&#10;&lt;main&gt;&#10;    &lt;div class=&quot;panel-section&quot;&gt;&#10;        &lt;nav&gt;&#10;            &lt;ul&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Рассчитать нагрузку&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;/portal/troubles&quot;&gt;Экопроишествия&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;/portal/list_of_requests&quot;&gt;Выдача разрешений&lt;/a&gt;&lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/nav&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;request-section&quot;&gt;&#10;        &lt;h2&gt;Выберите ООПТ&lt;/h2&gt;&#10;        &lt;div class=&quot;request-list&quot;&gt;&#10;            &lt;ul id=&quot;troublesList&quot;&gt;&#10;                &#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/main&gt;&#10;&lt;footer&gt;&#10;    &lt;p&gt;&amp;copy; 2024 SUAI.dev. All rights reserved.&lt;/p&gt;&#10;&lt;/footer&gt;&#10;&lt;script&gt;&#10;    function redirectToRoutes(id) {&#10;        window.location.href = `/portal/list_of_routes?id=${id}`;&#10;    }&#10;    document.addEventListener('DOMContentLoaded', () =&gt; {&#10;        &#10;        const apiUrl = '/api/portal/get_all_oopts';&#10;&#10;        &#10;        fetch(apiUrl)&#10;            .then(response =&gt; response.json())&#10;            .then(data =&gt; {&#10;                &#10;                const oopts = data.oopts;&#10;&#10;                &#10;                const container = document.getElementById('troublesList');&#10;&#10;                &#10;                oopts.forEach(oopt =&gt; {&#10;                    &#10;                    const tile = document.createElement('div');&#10;                    tile.classList.add('oopt-tile');&#10;                    tile.dataset.id = oopt.id;&#10;&#10;                    &#10;                    const name = document.createElement('span');&#10;                    if (oopt.stress !== 0){&#10;                        name.textContent = `${oopt.name} (предельная нагрузка - ${oopt.stress} чел/день)`;&#10;                    }&#10;                    else{&#10;                        name.textContent = oopt.name;&#10;                    }&#10;                    name.className = 'oopt-name';&#10;                    tile.appendChild(name);&#10;                    tile.addEventListener('click', () =&gt; {&#10;                        localStorage.setItem(&quot;ooptID&quot;, oopt.id);&#10;                        redirectToRoutes(oopt.id);&#10;                    });&#10;                    &#10;                    const listItem = document.createElement('li');&#10;                    listItem.appendChild(tile);&#10;&#10;                    &#10;                    container.appendChild(listItem);&#10;                });&#10;            })&#10;            .catch(error =&gt; {&#10;                console.error('Error fetching data:', error);&#10;            });&#10;    });&#10;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" />
+              <option name="code" value="200" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 10:45:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d681ab14-4745-4e53-b251-21aa0a399650" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;&#10;    &lt;title&gt;Ecological Monitoring&lt;/title&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/portal/styles/styles.css&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;header&gt;&#10;    &lt;h1&gt;Ecological Monitoring in Kamchatka Krai&lt;/h1&gt;&#10;&lt;/header&gt;&#10;&lt;main&gt;&#10;    &lt;div class=&quot;panel-section&quot;&gt;&#10;        &lt;nav&gt;&#10;            &lt;ul&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Рассчитать нагрузку&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;/portal/troubles&quot;&gt;Экопроишествия&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;/portal/list_of_requests&quot;&gt;Выдача разрешений&lt;/a&gt;&lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/nav&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;request-section&quot;&gt;&#10;        &lt;h2&gt;Выберите ООПТ&lt;/h2&gt;&#10;        &lt;div class=&quot;request-list&quot;&gt;&#10;            &lt;ul id=&quot;troublesList&quot;&gt;&#10;                &#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/main&gt;&#10;&lt;footer&gt;&#10;    &lt;p&gt;&amp;copy; 2024 SUAI.dev. All rights reserved.&lt;/p&gt;&#10;&lt;/footer&gt;&#10;&lt;script&gt;&#10;    function redirectToRoutes(id) {&#10;        window.location.href = `/portal/list_of_routes?id=${id}`;&#10;    }&#10;    document.addEventListener('DOMContentLoaded', () =&gt; {&#10;        &#10;        const apiUrl = '/api/portal/get_all_oopts';&#10;&#10;        &#10;        fetch(apiUrl)&#10;            .then(response =&gt; response.json())&#10;            .then(data =&gt; {&#10;                &#10;                const oopts = data.oopts;&#10;&#10;                &#10;                const container = document.getElementById('troublesList');&#10;&#10;                &#10;                oopts.forEach(oopt =&gt; {&#10;                    &#10;                    const tile = document.createElement('div');&#10;                    tile.classList.add('oopt-tile');&#10;                    tile.dataset.id = oopt.id;&#10;&#10;                    &#10;                    const name = document.createElement('span');&#10;                    if (oopt.stress !== 0){&#10;                        name.textContent = `${oopt.name} (предельная нагрузка - ${oopt.stress} чел/день)`;&#10;                    }&#10;                    else{&#10;                        name.textContent = oopt.name;&#10;                    }&#10;                    name.className = 'oopt-name';&#10;                    tile.appendChild(name);&#10;                    tile.addEventListener('click', () =&gt; {&#10;                        localStorage.setItem(&quot;ooptID&quot;, oopt.id);&#10;                        redirectToRoutes(oopt.id);&#10;                    });&#10;                    &#10;                    const listItem = document.createElement('li');&#10;                    listItem.appendChild(tile);&#10;&#10;                    &#10;                    container.appendChild(listItem);&#10;                });&#10;            })&#10;            .catch(error =&gt; {&#10;                console.error('Error fetching data:', error);&#10;            });&#10;    });&#10;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" />
+              <option name="size" value="2808" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718534755279" />
+          <option name="id" value="7e06bf06-2bff-47d6-8a6b-8d668baeb642" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="ce73819f-44d7-4123-b159-dd8575caef69" />
+              <option name="method" value="GET" />
+              <option name="name" value="route" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/route/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="NDA0IHBhZ2Ugbm90IGZvdW5kCg==" />
+              <option name="bodyString" value="404 page not found&#10;" />
+              <option name="code" value="404" />
+              <option name="contentType" value="text/plain; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/plain; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Content-Type-Options" />
+                    <option name="value" value="nosniff" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 10:45:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="19" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7e06bf06-2bff-47d6-8a6b-8d668baeb642" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="TEXT" />
+              <option name="rawBodyString" value="404 page not found&#10;" />
+              <option name="size" value="19" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718534760397" />
+          <option name="id" value="04fe374a-9377-4946-9eac-31ed203473a6" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="07b1a8db-db9e-467d-8ef4-4fcb198939a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="routes_all" />
+              <option name="sortWeight" value="4000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/routes_all" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyb3V0ZXMiOlt7ImlkIjoxLCJ6b25lX2lkIjoxLCJuYW1lIjoi0J/QuNC90LDRh9C10LLQvi3QptC10L3RgtGA0LDQu9GM0L3Ri9C5IiwiZGVzYyI6IjEg0LTQtdC90Yw6INC/0LXRgNC10YXQvtC0IDE3LDUg0LrQvC4g0JzQsNGA0YjRgNGD0YIg0L3QsNGH0LjQvdCw0LXRgtGB0Y8g0L7RgiDQuNC90YHQv9C10LrRgtC+0YDRgdC60L7Qs9C+INC60L7RgNC00L7QvdCwINC4INC/0YDQvtGF0L7QtNC40YIg0LLQtNC+0LvRjCDRgNC10LrQuCDQn9C40L3QsNGH0LXQstGB0LrQsNGPLCDRh9C10YDQtdC3INGB0YLQvtGP0L3QutGDIMKr0J/RgNC+0LzQtdC20YPRgtC+0YfQvdCw0Y/Cuywg0LTQviDQutC+0YLQvtGA0L7QuSDQvtGCINC60L7RgNC00L7QvdCwINC/0YDQuNC80LXRgNC90L4gMTIg0LrQvCwg0Log0YHRgtC+0Y/QvdC60LUg0LrQvtGA0LTQvtC90LAgwqvQodC10LzQtdC90L7QstGB0LrQuNC5wrsgLSDQtdGJ0ZEgNSw1INC60LwuINCd0L7Rh9C10LLQutCwLiAyINC00LXQvdGMOiDQv9C10YDQtdGF0L7QtCAyMSDQutC8LiDQntGCINC60L7RgNC00L7QvdCwIMKr0KHQtdC80LXQvdC+0LLRgdC60LjQucK7LCDQv9C+INGC0YDQvtC/0LUsINC/0YDQuNC80LXRgNC90L4g0LIgNCDQutC8LCDQvdCw0YXQvtC00LjRgtGB0Y8g0YHRgtC+0Y/QvdC60LAgwqvQn9C10YDQtdCy0LDQu9GM0L3QsNGPwrsuINCe0YIg0L3QtdC1INC10YnRkSDQvtC60L7Qu9C+IDUg0LrQvCwg0YLRgNC+0L/QsCDQv9C+INC60LDQvNC10L3QuNGB0YLQvtC80YMg0YDQsNGB0L/QsNC00LrRgyDQuCDQs9C+0YDQvdC+0Lkg0YLRg9C90LTRgNC1INGD0YXQvtC00LjRgiDQstCy0LXRgNGFINC6INCf0LjQvdCw0YfQtdCy0YHQutC+0LzRgyDQv9C10YDQtdCy0LDQu9GDLCDQsNCx0YHQvtC70Y7RgtC90LDRjyDQstGL0YHQvtGC0LAg0LrQvtGC0L7RgNC+0LPQviDRgdC+0YHRgtCw0LLQu9GP0LXRgiAxMTUwINC80LXRgtGA0L7Qsi4g0KEg0L/QtdGA0LXQstCw0LvQsCDQvtGC0LrRgNGL0LLQsNC10YLRgdGPINCy0LXQu9C40LrQvtC70LXQv9C90LDRjyDQv9Cw0L3QvtGA0LDQvNCwINCd0LDQu9GL0YfQtdCy0YHQutC+0Lkg0LTQvtC70LjQvdGLLiDQntGC0YHRjtC00LAg0YLRgNC+0L/QsCDRg9GF0L7QtNC40YIg0LrRgNGD0YLQviDQstC90LjQtywg0YfQtdGA0LXQtyDQutC10LTRgNC+0LLRi9C5INC4INC+0LvRjNGF0L7QstGL0Lkg0YHRgtC70LDQvdC40LouINCU0LDQu9C10LUsINC/0L7RgdGC0LXQv9C10L3QvdC+INCy0YvQv9C+0LvQsNC20LjQstCw0Y/RgdGMLCDRgtGA0L7Qv9CwINCy0YXQvtC00LjRgiDQsiDQutCw0LzQtdC90L3QvtCx0LXRgNC10LfQvtCy0YvQuSDQu9C10YEsINC4INCy0LTQvtC70Ywg0YDQtdC60Lgg0JPQvtGA0Y/Rh9C10LksINGB0L/Rg9GB0YLRjyAxMiDQutC8INC+0YIg0L/QtdGA0LXQstCw0LvQsCwg0L/QvtC00YXQvtC00LjRgiDQuiDQutC+0YDQtNC+0L3RgyDCq9Cm0LXQvdGC0YDQsNC70YzQvdGL0LnCuy4g0J3QsCDQutC+0YDQtNC+0L3QtSwg0L/QviDQv9GA0LXQtNCy0LDRgNC40YLQtdC70YzQvdC+0LzRgyDQsdGA0L7QvdC40YDQvtCy0LDQvdC40Y4sINC/0YDQtdC00YPRgdC80L7RgtGA0LXQvdC+INCy0YDQtdC80LXQvdC90L7QtSDQv9GA0L7QttC40LLQsNC90LjQtSDQsiDQtNC+0LzQuNC60LDRhS4g0JIg0YHQu9GD0YfQsNC1INC40YHQv9C+0LvRjNC30L7QstCw0L3QuNGPINC/0LDQu9Cw0YLQvtC6LCDRgtGD0YDQuNGB0YLRiyDRgNCw0LfQvNC10YnQsNGO0YLRgdGPINCyINC70LDQs9C10YDQtSDQvdCwINGALiDQltGR0LvRgtCw0Y8g0LIgMSw1INC60Lwg0L7RgiDQutC+0YDQtNC+0L3QsC4iLCJkdXJhdGlvbiI6NDgsImltZ191cmxzIjpbIi9zdGF0aWMvYXBwZGF0YS8xLzEvaW1ncy9pbWdfMi5wbmciLCIvc3RhdGljL2FwcGRhdGEvMS8xL2ltZ3MvaW1nLnBuZyIsIi9zdGF0aWMvYXBwZGF0YS8xLzEvaW1ncy9pbWdfMy5wbmciLCIvc3RhdGljL2FwcGRhdGEvMS8xL2ltZ3MvaW1nXzUucG5nIiwiL3N0YXRpYy9hcHBkYXRhLzEvMS9pbWdzL2ltZ18xLnBuZyIsIi9zdGF0aWMvYXBwZGF0YS8xLzEvaW1ncy9pbWdfNC5wbmciXX1dfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;routes&quot;: [&#10;    {&#10;      &quot;id&quot;: 1,&#10;      &quot;zone_id&quot;: 1,&#10;      &quot;name&quot;: &quot;Пиначево-Центральный&quot;,&#10;      &quot;desc&quot;: &quot;1 день: переход 17,5 км. Маршрут начинается от инспекторского кордона и проходит вдоль реки Пиначевская, через стоянку «Промежуточная», до которой от кордона примерно 12 км, к стоянке кордона «Семеновский» - ещё 5,5 км. Ночевка. 2 день: переход 21 км. От кордона «Семеновский», по тропе, примерно в 4 км, находится стоянка «Перевальная». От нее ещё около 5 км, тропа по каменистому распадку и горной тундре уходит вверх к Пиначевскому перевалу, абсолютная высота которого составляет 1150 метров. С перевала открывается великолепная панорама Налычевской долины. Отсюда тропа уходит круто вниз, через кедровый и ольховый стланик. Далее, постепенно выполаживаясь, тропа входит в каменноберезовый лес, и вдоль реки Горячей, спустя 12 км от перевала, подходит к кордону «Центральный». На кордоне, по предварительному бронированию, предусмотрено временное проживание в домиках. В случае использования палаток, туристы размещаются в лагере на р. Жёлтая в 1,5 км от кордона.&quot;,&#10;      &quot;duration&quot;: 48,&#10;      &quot;img_urls&quot;: [&#10;        &quot;/static/appdata/1/1/imgs/img_2.png&quot;,&#10;        &quot;/static/appdata/1/1/imgs/img.png&quot;,&#10;        &quot;/static/appdata/1/1/imgs/img_3.png&quot;,&#10;        &quot;/static/appdata/1/1/imgs/img_5.png&quot;,&#10;        &quot;/static/appdata/1/1/imgs/img_1.png&quot;,&#10;        &quot;/static/appdata/1/1/imgs/img_4.png&quot;&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 10:46:00 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="04fe374a-9377-4946-9eac-31ed203473a6" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;routes&quot;:[{&quot;id&quot;:1,&quot;zone_id&quot;:1,&quot;name&quot;:&quot;Пиначево-Центральный&quot;,&quot;desc&quot;:&quot;1 день: переход 17,5 км. Маршрут начинается от инспекторского кордона и проходит вдоль реки Пиначевская, через стоянку «Промежуточная», до которой от кордона примерно 12 км, к стоянке кордона «Семеновский» - ещё 5,5 км. Ночевка. 2 день: переход 21 км. От кордона «Семеновский», по тропе, примерно в 4 км, находится стоянка «Перевальная». От нее ещё около 5 км, тропа по каменистому распадку и горной тундре уходит вверх к Пиначевскому перевалу, абсолютная высота которого составляет 1150 метров. С перевала открывается великолепная панорама Налычевской долины. Отсюда тропа уходит круто вниз, через кедровый и ольховый стланик. Далее, постепенно выполаживаясь, тропа входит в каменноберезовый лес, и вдоль реки Горячей, спустя 12 км от перевала, подходит к кордону «Центральный». На кордоне, по предварительному бронированию, предусмотрено временное проживание в домиках. В случае использования палаток, туристы размещаются в лагере на р. Жёлтая в 1,5 км от кордона.&quot;,&quot;duration&quot;:48,&quot;img_urls&quot;:[&quot;/static/appdata/1/1/imgs/img_2.png&quot;,&quot;/static/appdata/1/1/imgs/img.png&quot;,&quot;/static/appdata/1/1/imgs/img_3.png&quot;,&quot;/static/appdata/1/1/imgs/img_5.png&quot;,&quot;/static/appdata/1/1/imgs/img_1.png&quot;,&quot;/static/appdata/1/1/imgs/img_4.png&quot;]}]}&#10;" />
+              <option name="size" value="2078" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718545967240" />
+          <option name="id" value="8150b1b1-9823-43a0-b484-dc46472f22c5" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 13:52:47 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8150b1b1-9823-43a0-b484-dc46472f22c5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="19" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546455751" />
+          <option name="id" value="9105ff3c-af2e-4e34-9c5e-da50a208e8f8" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9105ff3c-af2e-4e34-9c5e-da50a208e8f8" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546456504" />
+          <option name="id" value="b98993ec-530b-4a6e-9fbe-8824e39f1007" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:56 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b98993ec-530b-4a6e-9fbe-8824e39f1007" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546456947" />
+          <option name="id" value="94269108-bf61-462d-9369-d0b25c17014b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="94269108-bf61-462d-9369-d0b25c17014b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546457323" />
+          <option name="id" value="95250efb-086d-4da7-ae73-0fc0d48faedd" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="95250efb-086d-4da7-ae73-0fc0d48faedd" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546457752" />
+          <option name="id" value="4fb5f5fe-7bb0-43a2-b4e8-e0599e48548f" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4fb5f5fe-7bb0-43a2-b4e8-e0599e48548f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546458137" />
+          <option name="id" value="c3693e19-e6cc-4fe8-bbfa-c245f5adeb8e" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c3693e19-e6cc-4fe8-bbfa-c245f5adeb8e" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718546458509" />
+          <option name="id" value="bac51fc8-079e-49ad-b2d7-965460a929b2" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:00:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="bac51fc8-079e-49ad-b2d7-965460a929b2" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547820917" />
+          <option name="id" value="aa3dc96c-20c2-4d19-9dcf-9d4c6a9061a3" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="aa3dc96c-20c2-4d19-9dcf-9d4c6a9061a3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547821684" />
+          <option name="id" value="d1b92d4e-1431-4e4c-996c-15fd0ee4fc71" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d1b92d4e-1431-4e4c-996c-15fd0ee4fc71" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547822054" />
+          <option name="id" value="3131009d-a84a-4d22-9cf6-63901dbae8d0" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3131009d-a84a-4d22-9cf6-63901dbae8d0" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547822245" />
+          <option name="id" value="2a3bea38-fdc7-4727-9426-a990c61fb7d8" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2a3bea38-fdc7-4727-9426-a990c61fb7d8" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547822416" />
+          <option name="id" value="4a15d6f9-a202-43e4-a2bf-eba79789ef2f" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4a15d6f9-a202-43e4-a2bf-eba79789ef2f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718547822592" />
+          <option name="id" value="64558055-0ae6-49d5-9f52-f9e7c47f30e7" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="64558055-0ae6-49d5-9f52-f9e7c47f30e7" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
       </list>
     </option>
   </component>
