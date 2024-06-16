@@ -58,6 +58,59 @@
               <option name="sortWeight" value="5000000" />
               <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
             </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="01 10" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="postman" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553131" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="adomkmaephone" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="mnemail" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
           </list>
         </option>
       </draftsState>

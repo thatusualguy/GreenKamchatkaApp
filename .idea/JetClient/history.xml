@@ -1859,246 +1859,6 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718494634265" />
-          <option name="id" value="08b86f38-540d-4f60-b46f-8f1ceac3fe7b" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sat, 15 Jun 2024 23:37:14 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="08b86f38-540d-4f60-b46f-8f1ceac3fe7b" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="29" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718494697961" />
-          <option name="id" value="2cce1d5b-d4b6-4528-9702-0f048a8d83b1" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX1dfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    }&#10;  ]&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sat, 15 Jun 2024 23:38:18 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="959" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2cce1d5b-d4b6-4528-9702-0f048a8d83b1" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]}]}&#10;" />
-              <option name="size" value="959" />
-              <option name="time" value="12" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718497959900" />
-          <option name="id" value="3bf80269-d44d-4521-bb49-aa67cd185e5d" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX1dfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    }&#10;  ]&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 00:32:40 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="959" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="3bf80269-d44d-4521-bb49-aa67cd185e5d" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]}]}&#10;" />
-              <option name="size" value="959" />
-              <option name="time" value="15" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718499748150" />
-          <option name="id" value="ea1e2f55-77ae-4571-a035-4956607c5549" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbMS4yMzMyLDQ1LjIzNDU1XX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCR0YDQsNC60L7QvdGM0LXRgNGB0YLQstC+IiwidHlwZV9pZCI6MywiY29vcmRzIjpbNDAuMzI0LDE2MC4yMzRdfV19Cg==" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        1.2332,&#10;        45.23455&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        40.324,&#10;        160.234&#10;      ]&#10;    }&#10;  ]&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 01:02:28 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="1093" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ea1e2f55-77ae-4571-a035-4956607c5549" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[1.2332,45.23455]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[40.324,160.234]}]}&#10;" />
-              <option name="size" value="1093" />
-              <option name="time" value="15" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718533993922" />
-          <option name="id" value="bec15a71-1d7a-4893-8fad-6a01c1421628" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 10:33:14 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="bec15a71-1d7a-4893-8fad-6a01c1421628" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="16" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1718534753250" />
           <option name="id" value="d681ab14-4745-4e53-b251-21aa0a399650" />
           <option name="request">
@@ -2259,21 +2019,67 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718545967240" />
-          <option name="id" value="8150b1b1-9823-43a0-b484-dc46472f22c5" />
+          <option name="dateTime" value="1718552924704" />
+          <option name="id" value="8dbc0fa9-fffd-406f-a546-f5a3e1182fd1" />
           <option name="request">
             <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="5" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="uuj" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="123733" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="eyJJRCI6MTZ9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 16&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2288,27 +2094,27 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 13:52:47 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:44 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="10" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="8150b1b1-9823-43a0-b484-dc46472f22c5" />
+              <option name="id" value="8dbc0fa9-fffd-406f-a546-f5a3e1182fd1" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="19" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:16}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="17" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546455751" />
-          <option name="id" value="9105ff3c-af2e-4e34-9c5e-da50a208e8f8" />
+          <option name="dateTime" value="1718552931591" />
+          <option name="id" value="09722b4e-ca31-4123-b611-7352cff303da" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2336,7 +2142,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:55 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:51 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2344,7 +2150,7 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="9105ff3c-af2e-4e34-9c5e-da50a208e8f8" />
+              <option name="id" value="09722b4e-ca31-4123-b611-7352cff303da" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
@@ -2355,8 +2161,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546456504" />
-          <option name="id" value="b98993ec-530b-4a6e-9fbe-8824e39f1007" />
+          <option name="dateTime" value="1718552932438" />
+          <option name="id" value="cacc456b-4945-410b-8b70-31cb59792523" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2384,7 +2190,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:56 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:52 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2392,7 +2198,7 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="b98993ec-530b-4a6e-9fbe-8824e39f1007" />
+              <option name="id" value="cacc456b-4945-410b-8b70-31cb59792523" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
@@ -2403,8 +2209,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546456947" />
-          <option name="id" value="94269108-bf61-462d-9369-d0b25c17014b" />
+          <option name="dateTime" value="1718552932860" />
+          <option name="id" value="e3e94cb0-9b17-4abf-806f-4fc4f7c1e98c" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2432,7 +2238,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:53 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2440,55 +2246,7 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="94269108-bf61-462d-9369-d0b25c17014b" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="14" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718546457323" />
-          <option name="id" value="95250efb-086d-4da7-ae73-0fc0d48faedd" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="95250efb-086d-4da7-ae73-0fc0d48faedd" />
+              <option name="id" value="e3e94cb0-9b17-4abf-806f-4fc4f7c1e98c" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
@@ -2499,8 +2257,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546457752" />
-          <option name="id" value="4fb5f5fe-7bb0-43a2-b4e8-e0599e48548f" />
+          <option name="dateTime" value="1718552933047" />
+          <option name="id" value="6a0d247e-013e-48c2-a692-3ef3067f8613" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2528,7 +2286,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:57 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:53 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2536,19 +2294,19 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="4fb5f5fe-7bb0-43a2-b4e8-e0599e48548f" />
+              <option name="id" value="6a0d247e-013e-48c2-a692-3ef3067f8613" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
               <option name="size" value="17" />
-              <option name="time" value="12" />
+              <option name="time" value="13" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546458137" />
-          <option name="id" value="c3693e19-e6cc-4fe8-bbfa-c245f5adeb8e" />
+          <option name="dateTime" value="1718552933225" />
+          <option name="id" value="50df5cf9-2008-461d-9018-99f868529e93" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2576,7 +2334,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:58 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:53 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2584,7 +2342,293 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="c3693e19-e6cc-4fe8-bbfa-c245f5adeb8e" />
+              <option name="id" value="50df5cf9-2008-461d-9018-99f868529e93" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718552933468" />
+          <option name="id" value="25ccdadb-12f7-4f98-b85e-0343ff16d207" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="25ccdadb-12f7-4f98-b85e-0343ff16d207" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718552933631" />
+          <option name="id" value="7fd94cfd-3769-4bf8-b29f-bd8184b532bf" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:53 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7fd94cfd-3769-4bf8-b29f-bd8184b532bf" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718552933977" />
+          <option name="id" value="7afc5acb-a166-4428-95e5-9dd93ffb4300" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:48:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7afc5acb-a166-4428-95e5-9dd93ffb4300" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
+              <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718552942496" />
+          <option name="id" value="74ede5d3-8be7-41fb-a7e8-8f908bb1643c" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="5" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 0" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="123733" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6MTd9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 17&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:49:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="74ede5d3-8be7-41fb-a7e8-8f908bb1643c" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:17}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="17" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718552944761" />
+          <option name="id" value="22fb468c-c818-4873-94c2-db30af748930" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:49:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="17" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="22fb468c-c818-4873-94c2-db30af748930" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
@@ -2595,8 +2639,8 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718546458509" />
-          <option name="id" value="bac51fc8-079e-49ad-b2d7-965460a929b2" />
+          <option name="dateTime" value="1718552945554" />
+          <option name="id" value="d4e680cb-2a66-4d93-b350-4fdc4cea5ae0" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2624,7 +2668,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:00:58 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:49:05 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
@@ -2632,19 +2676,161 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="bac51fc8-079e-49ad-b2d7-965460a929b2" />
+              <option name="id" value="d4e680cb-2a66-4d93-b350-4fdc4cea5ae0" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
               <option name="size" value="17" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553001350" />
+          <option name="id" value="8d933f9e-ee8f-4d86-a988-d00a358d317a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 0" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="123733" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6MTh9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 18&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:50:01 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8d933f9e-ee8f-4d86-a988-d00a358d317a" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:18}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553003202" />
+          <option name="id" value="9ed10802-7561-44ec-b2d5-b2de336f0723" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:50:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="121" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9ed10802-7561-44ec-b2d5-b2de336f0723" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="121" />
               <option name="time" value="14" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718547820917" />
-          <option name="id" value="aa3dc96c-20c2-4d19-9dcf-9d4c6a9061a3" />
+          <option name="dateTime" value="1718553061160" />
+          <option name="id" value="07054cd4-344b-40ea-a5bc-5206c3caab53" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2656,8 +2842,8 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2672,40 +2858,700 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:41 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:51:01 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="121" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="aa3dc96c-20c2-4d19-9dcf-9d4c6a9061a3" />
+              <option name="id" value="07054cd4-344b-40ea-a5bc-5206c3caab53" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="121" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553061565" />
+          <option name="id" value="75cefc6f-f7d0-4bad-b34f-d53c9b8496f8" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:51:01 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="121" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="75cefc6f-f7d0-4bad-b34f-d53c9b8496f8" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="121" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553064018" />
+          <option name="id" value="edc4477a-4ceb-4a14-a70e-496ffe2f79fd" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:51:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="121" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="edc4477a-4ceb-4a14-a70e-496ffe2f79fd" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="121" />
+              <option name="time" value="13" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553140596" />
+          <option name="id" value="b64ea5bb-a881-4e1b-8b4f-e664a4f233b7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 0" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553130" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6MjB9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 20&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:52:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b64ea5bb-a881-4e1b-8b4f-e664a4f233b7" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:20}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553144793" />
+          <option name="id" value="42f9cbcd-0c0a-4fad-ae2a-54f8b427092b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JzRg9GB0L7RgCIsInR5cGVfaWQiOjEsImNvb3JkcyI6WzAsMF19XX0K" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:52:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="228" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="42f9cbcd-0c0a-4fad-ae2a-54f8b427092b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="228" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553238698" />
+          <option name="id" value="4e971678-822f-49f0-a914-635fd8f03384" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553130" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6MjF9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 21&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:53:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4e971678-822f-49f0-a914-635fd8f03384" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:21}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553246228" />
+          <option name="id" value="28190817-8f1c-44eb-ab32-85bcf2f6fd3e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="&quot;1718553130&quot;" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="e30KeyJJRCI6MjJ9Cg==" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 15:54:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="13" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="28190817-8f1c-44eb-ab32-85bcf2f6fd3e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}&#10;{&quot;ID&quot;:22}&#10;" />
+              <option name="size" value="13" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553923096" />
+          <option name="id" value="8e618dc1-6cef-4f76-8002-15425c223ba0" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="17185531300000" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="e30KeyJJRCI6MH0K" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:05:23 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="12" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8e618dc1-6cef-4f76-8002-15425c223ba0" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}&#10;{&quot;ID&quot;:0}&#10;" />
+              <option name="size" value="12" />
               <option name="time" value="16" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718547821684" />
-          <option name="id" value="d1b92d4e-1431-4e4c-996c-15fd0ee4fc71" />
+          <option name="dateTime" value="1718553926331" />
+          <option name="id" value="fd03677f-3237-4a09-a0e3-7c039588555e" />
           <option name="request">
             <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="17185531300000" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="e30KeyJJRCI6MH0K" />
+              <option name="bodyString" value="{}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:05:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="12" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="fd03677f-3237-4a09-a0e3-7c039588555e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{}&#10;{&quot;ID&quot;:0}&#10;" />
+              <option name="size" value="12" />
+              <option name="time" value="18" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718553932450" />
+          <option name="id" value="55368df1-c0de-41be-b723-35f556514b5c" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="0 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="171855313" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6MjR9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 24&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2720,40 +3566,512 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:41 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:05:32 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="10" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="d1b92d4e-1431-4e4c-996c-15fd0ee4fc71" />
+              <option name="id" value="55368df1-c0de-41be-b723-35f556514b5c" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:24}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="17" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718555052214" />
+          <option name="id" value="d4374a99-0be2-4e77-9b8a-2eb858f77c50" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JzRg9GB0L7RgCIsInR5cGVfaWQiOjEsImNvb3JkcyI6WzAsMF19LHsic3RhdHVzX2lkIjoiMSIsInN0YXR1c19uYW1lIjoi0JIg0YDQsNCx0L7RgtC1IiwidHlwZV9vZl9yZXBvcnQiOiLQnNGD0YHQvtGAIiwidHlwZV9pZCI6MSwiY29vcmRzIjpbMCwxXX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDFdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:24:12 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="442" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d4374a99-0be2-4e77-9b8a-2eb858f77c50" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]}]}&#10;" />
+              <option name="size" value="442" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718555126840" />
+          <option name="id" value="157fb107-bc0b-462f-bb8c-9ab408123aac" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JzRg9GB0L7RgCIsInR5cGVfaWQiOjEsImNvb3JkcyI6WzAsMF19LHsic3RhdHVzX2lkIjoiMSIsInN0YXR1c19uYW1lIjoi0JIg0YDQsNCx0L7RgtC1IiwidHlwZV9vZl9yZXBvcnQiOiLQnNGD0YHQvtGAIiwidHlwZV9pZCI6MSwiY29vcmRzIjpbMCwxXX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDFdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:25:27 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="442" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="157fb107-bc0b-462f-bb8c-9ab408123aac" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]}]}&#10;" />
+              <option name="size" value="442" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718555380199" />
+          <option name="id" value="991f030d-308f-44d3-af26-06d284fbd8aa" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="01 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="171855313" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6Mzl9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 39&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:29:40 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="991f030d-308f-44d3-af26-06d284fbd8aa" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:39}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718555394199" />
+          <option name="id" value="30a82cf1-32bf-4bae-be95-c790cdc5aed9" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="01 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="see" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553131" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6NDB9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 40&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:29:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="30a82cf1-32bf-4bae-be95-c790cdc5aed9" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:40}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718555402183" />
+          <option name="id" value="c88938d2-98f2-4391-b098-7a80f8b49d2f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="01 1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="asopdmamdklamd" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553131" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJJRCI6NDF9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 41&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:30:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="10" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c88938d2-98f2-4391-b098-7a80f8b49d2f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:41}&#10;" />
+              <option name="size" value="10" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1718556755389" />
+          <option name="id" value="d385d705-8380-4b17-9a4a-6746462f179b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
+              <option name="method" value="GET" />
+              <option name="name" value="reports" />
+              <option name="sortWeight" value="5000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JzRg9GB0L7RgCIsInR5cGVfaWQiOjEsImNvb3JkcyI6WzAsMV19LHsic3RhdHVzX2lkIjoiMyIsInN0YXR1c19uYW1lIjoi0KPRgdGC0YDQsNC90LXQvdC+IiwidHlwZV9vZl9yZXBvcnQiOiLQnNGD0YHQvtGAIiwidHlwZV9pZCI6MSwiY29vcmRzIjpbMCwwXX0seyJzdGF0dXNfaWQiOiIyIiwic3RhdHVzX25hbWUiOiLQntGC0LrQu9C+0L3QtdC90L4iLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlswLDFdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JzRg9GB0L7RgCIsInR5cGVfaWQiOjEsImNvb3JkcyI6WzEsMV19LHsic3RhdHVzX2lkIjoiMSIsInN0YXR1c19uYW1lIjoi0JIg0YDQsNCx0L7RgtC1IiwidHlwZV9vZl9yZXBvcnQiOiLQnNGD0YHQvtGAIiwidHlwZV9pZCI6MSwiY29vcmRzIjpbMSwxXX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlsxLDFdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;3&quot;,&#10;      &quot;status_name&quot;: &quot;Устранено&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;2&quot;,&#10;      &quot;status_name&quot;: &quot;Отклонено&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        1,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        1,&#10;        1&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        1,&#10;        1&#10;      ]&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sun, 16 Jun 2024 16:52:35 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="769" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d385d705-8380-4b17-9a4a-6746462f179b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]},{&quot;status_id&quot;:&quot;3&quot;,&quot;status_name&quot;:&quot;Устранено&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;2&quot;,&quot;status_name&quot;:&quot;Отклонено&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[0,1]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[1,1]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[1,1]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[1,1]}]}&#10;" />
+              <option name="size" value="769" />
               <option name="time" value="13" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718547822054" />
-          <option name="id" value="3131009d-a84a-4d22-9cf6-63901dbae8d0" />
+          <option name="dateTime" value="1718557494462" />
+          <option name="id" value="ddddfbeb-a9f7-4e9a-a098-a7e4f24fa35b" />
           <option name="request">
             <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="type" />
+                        <option name="value" value="Мусор" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="location" />
+                        <option name="value" value="01 10" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="comment" />
+                        <option name="value" value="postman" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="time" />
+                        <option name="value" value="1718553131" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="phone" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="email" />
+                        <option name="value" value="1" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="photo" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\max\Downloads\16-08-2013 12-51-21.png" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b1b0fc8b-62ab-47ac-8273-d999e8f38796" />
+              <option name="method" value="POST" />
+              <option name="name" value="new report" />
+              <option name="sortWeight" value="6000000" />
+              <option name="url" value="http://gk.suai.dev/api/mapp/send_report" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="eyJJRCI6OX0K" />
+              <option name="bodyString" value="{&#10;  &quot;ID&quot;: 9&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2768,27 +4086,27 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 17:04:54 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="9" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="3131009d-a84a-4d22-9cf6-63901dbae8d0" />
+              <option name="id" value="ddddfbeb-a9f7-4e9a-a098-a7e4f24fa35b" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="13" />
+              <option name="rawBodyString" value="{&quot;ID&quot;:9}&#10;" />
+              <option name="size" value="9" />
+              <option name="time" value="19" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718547822245" />
-          <option name="id" value="2a3bea38-fdc7-4727-9426-a990c61fb7d8" />
+          <option name="dateTime" value="1718557507002" />
+          <option name="id" value="d3d606e6-7a88-4aa3-b7e9-0ea2c8966d8a" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2800,8 +4118,8 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlsxLDEwXX1dfQo=" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        1,&#10;        10&#10;      ]&#10;    }&#10;  ]&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2816,27 +4134,27 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 17:05:07 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="122" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="2a3bea38-fdc7-4727-9426-a990c61fb7d8" />
+              <option name="id" value="d3d606e6-7a88-4aa3-b7e9-0ea2c8966d8a" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="13" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[1,10]}]}&#10;" />
+              <option name="size" value="122" />
+              <option name="time" value="22" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1718547822416" />
-          <option name="id" value="4a15d6f9-a202-43e4-a2bf-eba79789ef2f" />
+          <option name="dateTime" value="1718558863936" />
+          <option name="id" value="634c4e78-9e84-4356-b714-96870fc326d9" />
           <option name="request">
             <requestState>
               <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
@@ -2848,8 +4166,8 @@
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
+              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpbeyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCc0YPRgdC+0YAiLCJ0eXBlX2lkIjoxLCJjb29yZHMiOlsxLDEwXX0seyJzdGF0dXNfaWQiOiIxIiwic3RhdHVzX25hbWUiOiLQkiDRgNCw0LHQvtGC0LUiLCJ0eXBlX29mX3JlcG9ydCI6ItCa0L7RgdGC0YDQuNGJ0LAiLCJ0eXBlX2lkIjoyLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JHRgNCw0LrQvtC90YzQtdGA0YHRgtCy0L4iLCJ0eXBlX2lkIjozLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JHRgNCw0LrQvtC90YzQtdGA0YHRgtCy0L4iLCJ0eXBlX2lkIjozLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JHRgNCw0LrQvtC90YzQtdGA0YHRgtCy0L4iLCJ0eXBlX2lkIjozLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JHRgNCw0LrQvtC90YzQtdGA0YHRgtCy0L4iLCJ0eXBlX2lkIjozLCJjb29yZHMiOlswLDBdfSx7InN0YXR1c19pZCI6IjEiLCJzdGF0dXNfbmFtZSI6ItCSINGA0LDQsdC+0YLQtSIsInR5cGVfb2ZfcmVwb3J0Ijoi0JHRgNCw0LrQvtC90YzQtdGA0YHRgtCy0L4iLCJ0eXBlX2lkIjozLCJjb29yZHMiOlswLDBdfV19Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;reports&quot;: [&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Мусор&quot;,&#10;      &quot;type_id&quot;: 1,&#10;      &quot;coords&quot;: [&#10;        1,&#10;        10&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Кострища&quot;,&#10;      &quot;type_id&quot;: 2,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    },&#10;    {&#10;      &quot;status_id&quot;: &quot;1&quot;,&#10;      &quot;status_name&quot;: &quot;В работе&quot;,&#10;      &quot;type_of_report&quot;: &quot;Браконьерство&quot;,&#10;      &quot;type_id&quot;: 3,&#10;      &quot;coords&quot;: [&#10;        0,&#10;        0&#10;      ]&#10;    }&#10;  ]&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
@@ -2864,68 +4182,20 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
+                    <option name="value" value="Sun, 16 Jun 2024 17:27:44 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
+                    <option name="value" value="850" />
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="4a15d6f9-a202-43e4-a2bf-eba79789ef2f" />
+              <option name="id" value="634c4e78-9e84-4356-b714-96870fc326d9" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="12" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1718547822592" />
-          <option name="id" value="64558055-0ae6-49d5-9f52-f9e7c47f30e7" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="44f68b13-32e3-4563-9bb7-a3537b2a4ece" />
-              <option name="method" value="GET" />
-              <option name="name" value="reports" />
-              <option name="sortWeight" value="5000000" />
-              <option name="url" value="http://gk.suai.dev/api/mapp/get_all_reports" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJyZXBvcnRzIjpudWxsfQo=" />
-              <option name="bodyString" value="{&#10;  &quot;reports&quot;: null&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Sun, 16 Jun 2024 14:23:42 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="17" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="64558055-0ae6-49d5-9f52-f9e7c47f30e7" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;reports&quot;:null}&#10;" />
-              <option name="size" value="17" />
-              <option name="time" value="13" />
+              <option name="rawBodyString" value="{&quot;reports&quot;:[{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Мусор&quot;,&quot;type_id&quot;:1,&quot;coords&quot;:[1,10]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Кострища&quot;,&quot;type_id&quot;:2,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[0,0]},{&quot;status_id&quot;:&quot;1&quot;,&quot;status_name&quot;:&quot;В работе&quot;,&quot;type_of_report&quot;:&quot;Браконьерство&quot;,&quot;type_id&quot;:3,&quot;coords&quot;:[0,0]}]}&#10;" />
+              <option name="size" value="850" />
+              <option name="time" value="17" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />

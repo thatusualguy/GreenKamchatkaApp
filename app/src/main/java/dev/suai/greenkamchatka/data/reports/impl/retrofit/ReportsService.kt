@@ -7,16 +7,15 @@ import retrofit2.http.POST
 import retrofit2.http.Part
 
 interface ReportsService {
-
     @Multipart
     @POST("api/mapp/send_report")
     fun sendReport(
-        @Part("type") type: String,
-        @Part("location") location: String,
-        @Part("comment") comment: String,
-        @Part("time") time: String,
-        @Part("phone") phone: String,
-        @Part("email") email: String,
+        @Part type: MultipartBody.Part,
+        @Part location: MultipartBody.Part,
+        @Part comment: MultipartBody.Part,
+        @Part time: MultipartBody.Part,
+        @Part phone: MultipartBody.Part,
+        @Part email: MultipartBody.Part,
         @Part image: MultipartBody.Part
-    ) : Call<Void>
+    ) : Call<ResponseApi>
 }

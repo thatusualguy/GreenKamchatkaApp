@@ -30,8 +30,8 @@ class Converters {
 
     @TypeConverter
     fun toUri(uriString: String?): Uri? {
-        return Uri.fromFile(File(uriString))
-//        return uriString?.let { Uri.parse(it) }
+//        return Uri.fromFile(File(uriString))
+        return uriString?.let { Uri.parse(it) }
     }
 
     @TypeConverter

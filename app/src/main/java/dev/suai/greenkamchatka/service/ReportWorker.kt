@@ -1,13 +1,21 @@
 package dev.suai.greenkamchatka.service
 
+import android.Manifest
 import android.content.ContentResolver
 import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
 import android.database.Cursor
 import android.net.Uri
 import android.provider.MediaStore
+import android.util.Log
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.room.Room
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dev.suai.greenkamchatka.TAG
 import dev.suai.greenkamchatka.data.reports.Report
 import dev.suai.greenkamchatka.data.reports.impl.retrofit.ReportsService
 import dev.suai.greenkamchatka.data.reports.impl.room.ReportDatabase
@@ -23,6 +31,7 @@ import okio.Okio
 import okio.source
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.converter.scalars.ScalarsConverterFactory
 import java.io.File
 import java.io.IOException
 import javax.annotation.Nullable
@@ -51,6 +60,7 @@ class ReportWorker(private val appContext: Context, workerParams: WorkerParamete
             }
         }
 
+        this.stop(1)
         return Result.success()
     }
 
@@ -67,6 +77,7 @@ class ReportWorker(private val appContext: Context, workerParams: WorkerParamete
             }
         }
         return filePath?.let { File(it) }
+
     }
 
     fun meme(){
@@ -74,10 +85,13 @@ class ReportWorker(private val appContext: Context, workerParams: WorkerParamete
 
     private fun prepareFilePart(context: Context, fileUri: Uri): MultipartBody.Part {
 
-//        val file = getFileFromUri(context, fileUri)
-//        val requestFile =
-//            file?.asRequestBody(context.contentResolver.getType(fileUri)?.toMediaTypeOrNull())
-        return MultipartBody.Part.createFormData("image", "a", ContentUriRequestBody( context.contentResolver, fileUri))
+        val file = getFileFromUri(context, fileUri)
+        val requestFile =
+            file?.asRequestBody(context.contentResolver.getType(fileUri)?.toMediaTypeOrNull())
+//        val requestFile = File(getFileFromUri(context, ))
+
+        return MultipartBody.Part.createFormData("photo", "a", requestFile!!)
+//        return MultipartBody.Part.createFormData("image", "a", ContentUriRequestBody( context.contentResolver, fileUri))
     }
 
 
@@ -86,12 +100,20 @@ class ReportWorker(private val appContext: Context, workerParams: WorkerParamete
 
         val retrofit: Retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())
+//            .setLogLevel(RestAdapter.LogLevel.FULL)
+//        .addConverterFactory(ScalarsConverterFactory.create())
+        .addConverterFactory(GsonConverterFactory.create())
             .build()
 
         val a = retrofit.create(ReportsService::class.java)
 
         var b: MultipartBody.Part? = null
+
+//        val takeFlags = (Intent.FLAG_GRANT_READ_URI_PERMISSION)
+//        if (report.imageUri != null) {
+//            appContext.contentResolver.takePersistableUriPermission(report.imageUri, takeFlags)
+//        }
+
         if (report.imageUri?.path != null)
             b = prepareFilePart(appContext, report.imageUri)
 
@@ -104,15 +126,31 @@ class ReportWorker(private val appContext: Context, workerParams: WorkerParamete
             "Другое"
         )[report.type.minus(1).coerceAtMost(4).coerceAtLeast(0)]
 
-        a.sendReport(
-            type = type,
-            email = report.email,
-            comment = report.comment,
-            phone = report.phone,
-            time = report.time.toString(),
-            image = b ?: MultipartBody.Part.createFormData("image", ""),
-            location = report.location.lat.toString() + " " + report.location.lon.toString()
-        ).execute()
+//        val c = a.sendReport(
+////            type = "Мусор",
+//            type = type,
+//            email = report.email,
+//            comment = report.comment.removePrefix("\"").removeSuffix("\""),
+//            phone = report.phone,
+//            time = report.time,
+//            image = b ?: MultipartBody.Part.createFormData("photo", ""),
+//            location = report.location.lat.toString() + " " + report.location.lon.toString()
+//        )
+
+        val c = a.sendReport(
+//            type = "Мусор",
+            type =  MultipartBody.Part.createFormData("type", type),
+            email = MultipartBody.Part.createFormData("email",report.email),
+            comment = MultipartBody.Part.createFormData("comment",report.comment),
+            phone = MultipartBody.Part.createFormData("phone",report.phone),
+            time = MultipartBody.Part.createFormData("time",report.time.toString()),
+            image = b ?: MultipartBody.Part.createFormData("photo", ""),
+            location = MultipartBody.Part.createFormData("location",report.location.lat.toString() + " " + report.location.lon.toString())
+        )
+
+//        Log.e(TAG, "sendReport: ${c.}", )
+
+        Log.e(TAG,c.execute().raw().message)
     }
 }
 
@@ -136,3 +174,5 @@ class ContentUriRequestBody(
         }
     }
 }
+
+

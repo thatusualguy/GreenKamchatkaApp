@@ -23,7 +23,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import dev.suai.greenkamchatka.R
 import dev.suai.greenkamchatka.data.zones.Zone
 import dev.suai.greenkamchatka.ui.components.ListItem
 import dev.suai.greenkamchatka.ui.map.OpenStreetMapWithZones
@@ -47,7 +49,7 @@ fun ZonesScreen(
             if (!showBottomSheet)
                 ExtendedFloatingActionButton(
                     text = { Text("Показать списком") },
-                    icon = { Icon(Icons.Filled.Add, contentDescription = "") },
+                    icon = { Icon(painter = painterResource(id = R.drawable.plus), contentDescription = "") },
                     onClick = {
                         showBottomSheet = true
                     }

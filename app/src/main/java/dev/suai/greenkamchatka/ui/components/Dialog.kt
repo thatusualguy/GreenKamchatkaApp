@@ -18,11 +18,13 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import dev.suai.greenkamchatka.R
 import dev.suai.greenkamchatka.ui.theme.GreenKamchatkaTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -52,7 +54,7 @@ fun MyDialog(
                     horizontalArrangement = Arrangement.End,
                 ) {
                     TextButton(onClick = onDismiss) {
-                        Icon(Icons.Rounded.Close, contentDescription = null)
+                        Icon(painter = painterResource(id = R.drawable.cross), contentDescription = null)
                     }
                 }
 

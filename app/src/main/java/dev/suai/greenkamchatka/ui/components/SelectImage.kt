@@ -1,5 +1,6 @@
 package dev.suai.greenkamchatka.ui.components
 
+import android.content.Intent
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -16,12 +17,14 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import coil.compose.rememberImagePainter
 import coil.request.ImageRequest
 import coil.transform.CircleCropTransformation
+import dev.suai.greenkamchatka.R
 
 @Composable
 @Preview
@@ -30,6 +33,12 @@ fun SelectImageFromGallery(imageUri: Uri? = null, onImageChanged:(Uri?)->Unit = 
     val launcher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.GetContent()
     ) { uri: Uri? ->
+        uri?.let {
+            context.contentResolver.takePersistableUriPermission(
+                it,
+                Intent.FLAG_GRANT_READ_URI_PERMISSION
+            )
+        }
         onImageChanged(uri)
     }
 
@@ -43,7 +52,7 @@ fun SelectImageFromGallery(imageUri: Uri? = null, onImageChanged:(Uri?)->Unit = 
 
 
         Button(onClick = { launcher.launch("image/*") }) {
-            Icon(Icons.Rounded.Add, contentDescription = null)
+            Icon(painter = painterResource(id = R.drawable.plus), contentDescription = null)
         }
 
         TextButton(onClick = { launcher.launch("image/*")  }) {

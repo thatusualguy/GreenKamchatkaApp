@@ -118,4 +118,7 @@ dependencies {
     implementation("com.github.ticofab:android-gpx-parser:2.3.1")
 
 
+    // retrofit
+    implementation("com.squareup.retrofit2:converter-scalars:2.0.1")
+
 }

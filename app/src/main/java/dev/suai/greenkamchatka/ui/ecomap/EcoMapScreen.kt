@@ -8,6 +8,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.painterResource
+import dev.suai.greenkamchatka.R
 import dev.suai.greenkamchatka.data.map.ReportMarker
 import dev.suai.greenkamchatka.ui.map.OpenStreetMapWithReports
 
@@ -21,7 +23,7 @@ fun EcoMapScreen(reports: List<ReportMarker>, sendReport: () -> Unit) {
 
             ExtendedFloatingActionButton(
                 text = { Text("Отправить\nобращение") },
-                icon = { Icon(Icons.Filled.Send, contentDescription = "") },
+                icon = { Icon(painter = painterResource(id = R.drawable.plus), contentDescription = "") },
                 onClick = {
                     sendReport.invoke()
                 }

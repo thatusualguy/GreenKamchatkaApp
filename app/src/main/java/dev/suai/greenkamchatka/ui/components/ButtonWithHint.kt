@@ -15,17 +15,20 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import dev.suai.greenkamchatka.R
 import dev.suai.greenkamchatka.ui.theme.GreenKamchatkaTheme
 
 @Composable
 fun ButtonWithHint(
     label: String,
     modifier: Modifier = Modifier,
-    icon: ImageVector? = null,
+    icon: Painter? = null,
     hint: String,
     onClick: () -> Unit = {}
 ) {
@@ -43,7 +46,7 @@ fun ButtonWithHint(
                         modifier = Modifier
                             .size(36.dp)
                             .padding(start = 4.dp),
-                        imageVector = icon,
+                        painter = icon,
                         contentDescription = null
                     )
             }
@@ -66,7 +69,7 @@ fun ButtonWithHintPreview() {
     GreenKamchatkaTheme {
         ButtonWithHint(
             label = "Список посетителей",
-            icon = Icons.Rounded.List,
+            icon = painterResource(id = R.drawable.list),
             hint = "Если у вас заполнена форма посетителя\nв личном кабинете, выберите посетителя"
         )
     }
