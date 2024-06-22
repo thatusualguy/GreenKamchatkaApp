@@ -7,7 +7,9 @@ import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dev.suai.greenkamchatka.data.permits.Permit
+import dev.suai.greenkamchatka.data.permits.PermitUserApi
 import dev.suai.greenkamchatka.data.permits.PermitsRepo
+import dev.suai.greenkamchatka.data.visitors.Gender
 import dev.suai.greenkamchatka.data.visitors.Visitor
 import dev.suai.greenkamchatka.data.visitors.VisitorsRepository
 import kotlinx.coroutines.Dispatchers
@@ -75,23 +77,39 @@ class ApplyPermitViewModel @AssistedInject constructor(
     }
 
     fun onApplyForPermit() {
-        var visitor: Visitor
+        var visitor: PermitUserApi
 
         viewModelScope.launch(Dispatchers.IO) {
 
-            viewModelState.value.let {
+            viewModelState.value.let { state ->
                 visitor =
-                    if (it.selectedVisitor != null) it.savedVisitors.find { x -> x.id == it.selectedVisitor }
-                        ?: it.visitor else it.visitor
+                    (if (state.selectedVisitor != null) state.savedVisitors.find { x -> x.id == state.selectedVisitor }
+                        ?: state.visitor else state.visitor).let { visitor ->
+                        PermitUserApi(first_name = visitor.firstName,
+                            last_name = visitor.lastName,
+                            middle_name = visitor.middleName,
+                            phone = visitor.phone,
+                            email = visitor.email,
+                            citizenship = visitor.citizenship,
+                            region = visitor.registrationRegion,
+                            is_male = visitor.gender == Gender.Male,
+                            passport = visitor.passportSeries + " " + visitor.passportNum,
+                            date_of_birth = visitor.dob.let { DateTime(it).toString("yyyy-MM-dd") })
+                    }
 
-            permitsRepo.sendPermit(permit = Permit(
-                listOf(visitor),
-                date = it.date.toString("yyyy-MM-dd"),
-                photo = emptyList(),
-                reason = it.reason,
-                route_id = it.routeId,
-                format_of_visit = "Многодневный тур(от 1 ночевки и более)"
-            ))
+
+                val p = Permit(
+                    listOf(visitor),
+                    visit_date = state.date.toString("yyyy-MM-dd"),
+                    photo = emptyList(),
+                    reason = state.reason,
+                    route_id = state.routeId,
+                    format_of_visit = "Многодневный тур(от 1 ночевки и более)"
+                )
+
+
+
+                permitsRepo.sendPermit(permit = p)
             }
         }
     }
