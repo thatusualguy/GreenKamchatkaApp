@@ -16,7 +16,7 @@ import org.osmdroid.views.overlay.gestures.RotationGestureOverlay
 @Composable
 fun OpenStreetMap(
     startPoint: GpsPoint? = null,
-    startZoom: Double = 8.0,
+    startZoom: Double = 10.0,
     onUpdate: (MapView) -> Unit = {}
 ) {
     AndroidView(
@@ -25,7 +25,7 @@ fun OpenStreetMap(
             MapView(context).apply {
                 // set map source
                 setTileSource(TileSourceFactory.OpenTopo)
-                maxZoomLevel = 8.0
+                minZoomLevel = 8.0
 
                 // add rotation
                 val rotationGestureOverlay = RotationGestureOverlay(this)
@@ -36,7 +36,7 @@ fun OpenStreetMap(
                 // start point
                 val mapController = this.controller
                 mapController.setZoom(8.0)
-                mapController.setCenter(GeoPoint(55.0, 160.0));
+                mapController.setCenter(GeoPoint(55.0, 160.0))
             }
         },
         update = { mapView ->
