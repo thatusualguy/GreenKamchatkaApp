@@ -2,6 +2,7 @@ package dev.suai.greenkamchatka.navigation
 
 import android.util.Log
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -21,13 +22,14 @@ import dev.suai.greenkamchatka.ui.zones.ZonesRoute
 
 @Composable
 fun GreenKamchatkaNavGraph(
+    modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
     actions: GreenKamchatkaNavigationActions,
-    startDestination: String = Destinations.MENU_ROUTE
-) {
+    startDestination: String = Destinations.MENU_ROUTE,
+    ) {
 
 
-    NavHost(navController, startDestination) {
+    NavHost(navController, startDestination, modifier = modifier) {
 
         // menu
         composable(route = Destinations.MENU_ROUTE) {
@@ -107,11 +109,9 @@ fun GreenKamchatkaNavGraph(
         composable(route = Destinations.APPLY_PERMIT_TYPE_ROUTE + "/{id}") {
             val id = it.arguments?.getString("id")?.toIntOrNull() ?: -1
 
-            PermitTypeRoute(
-                onIndividualClick = { actions.navigateToPermit(id) },
+            PermitTypeRoute(onIndividualClick = { actions.navigateToPermit(id) },
                 onGroupClick = { },
-                onCompanyClick = {}
-            )
+                onCompanyClick = {})
         }
 
         composable(route = Destinations.APPLY_PERMIT_ROUTE + "/{id}") {
@@ -124,18 +124,14 @@ fun GreenKamchatkaNavGraph(
 
         composable(route = Destinations.FILE_REPORT_ROUTE) {
             FileReportRoute(
-                onReportSent = actions.navigateToMenu,
-                onBack = actions.navigateToMenu
+                onReportSent = actions.navigateToMenu, onBack = actions.navigateToMenu
             )
         }
 
         // eco map
 
         composable(route = Destinations.ECOMAP_ROUTE) {
-            EcoMapRoute(
-                onSendReport = actions.navigateToFileReport,
-                onBackPress = { TODO() }
-            )
+            EcoMapRoute(onSendReport = actions.navigateToFileReport, onBackPress = { actions.navigateToMenu })
         }
     }
 
